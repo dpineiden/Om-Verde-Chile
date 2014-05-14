@@ -20,3 +20,208 @@
 @import "abstractions/**/*";
 @import "base/**/*";
 @import "components/**/*";
+
+//se configura la zona de menú superior
+.l-region--navigation{
+	width: 100%;
+	position: absolute;
+	width: 100%;
+	float: left;
+	margin-right: 0%;
+	margin-left: 0%;
+	z-index: 1;
+	top:-3.0rem;
+	height: 2.8rem;
+    background-color:  #3580CC;
+.menu-central{
+	position: relative;
+}
+
+.sf-menu.sf-style-blue a {
+border: 1px outset #3580CC;
+color: #D3FFF4;
+padding: 0.75em 1em;
+}
+
+
+}
+.l-header{
+	position: relative;
+	top: 3rem;
+}
+//se configura la zona de logo y marca
+
+.l-region.l-region--branding.region--debug.region--debug--branding {
+    height: 8rem;
+    width: 32rem;
+}
+
+.site-branding {
+   width: 45%;
+
+	.site-branding__logo {
+	    margin-right: .2rem;
+	    width: 8rem;
+	}
+
+	.bloque-sitio-nombre-slogan {
+        font-family: Maven Pro;
+    	color: #FFFFFF;
+  		position: absolute;
+  		margin-left: 8.1rem;
+    	width: 25rem;
+
+    #nombre-sitio{
+   		 color: #000000;
+  		 font-size: 4rem;
+ 		 margin-top: 0rem;
+  		 position: relative;
+ 		 top: 0.1em;
+ 		 a{
+    	 color: black;	
+    	text-decoration: none;
+   		&:hover{
+    		color: white;
+    	}}
+    }
+
+    #universidad{
+    		position: absolute;
+    		top: 3.8rem;
+    	   	font-size : 2.5rem;
+    	   	text-transform: none;    	   	
+    	   	color: gray;
+ 		 a{
+    	 color: gray;	
+    	text-decoration: none;    	   	
+    	   	&:hover{
+    	   		color: white;
+    	   	}
+    	   }
+    }
+    #slogan{
+		width: 36rem;
+    	position: relative ;
+    	margin-top: 5rem;
+    	font-size:1.6rem;
+   		text-transform: none;
+	}
+}}
+
+//posicion main content: 
+.l-main.l-constrained {
+    position: relative;
+    top: 1rem;
+}
+
+//se fija el teaser ajustado arriba
+.teaser-ultimos-articulos {
+    vertical-align: sub;
+    width: 30%;//100/n 
+    float:left;
+}
+//texto de teaser justificado
+    .teaser-front {
+    text-align: justify;
+}
+
+@media all and (max-width: 649px) {
+
+  .ultimos-articulos {
+
+    .view-content {
+
+      .fila-ultimos-articulos{
+
+        width:100%;
+          margin-left:5%;
+          margin-right:5%;
+        float:left;
+
+      }
+
+    }
+
+  }
+
+}
+
+@media all and (min-width: 650px) and (max-width: 959px) {
+
+  .ultimos-articulos{
+
+    .view-content {
+
+      .fila-ultimos-articulos {
+
+        width:45%;
+
+        float:left;
+
+        &:nth-child(2n - 1) {
+          margin-left:5%;
+          margin-right:5%;
+
+        }
+
+      }
+
+    }
+
+  }
+
+}
+
+@media all and (min-width: 960px) {
+
+  .ultimos-articulos {
+
+    .view-content {
+
+      .fila-ultimos-articulos {
+
+        float:left;
+
+        width:30%;
+
+        &:nth-child(3n - 1) {
+
+          margin-right:5%;
+
+          margin-left:5%;
+
+        }
+
+        &:nth-child(3n + 1) {
+
+          clear:left;
+
+        }
+
+      }
+
+    }
+
+  }
+
+}
+
+//CSS Footer
+
+
+.l-region--footer {
+    display: inline-flex;
+    box-align:center
+    .licencia-copyleft-procomun{
+    right: 2rem;
+    }
+    .contactar {
+    left: 2rem;
+    width: 110px;
+    }    
+    .hecho-con-drupal {
+    left: 2rem;
+    position: relative;
+    }
+}
+
