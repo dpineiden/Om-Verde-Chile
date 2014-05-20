@@ -56,8 +56,9 @@ padding: 0.75em 1em;
     width: 32rem;
 }
 
-.site-branding {
-   width: 45%;
+.l-branding {
+   width: 60%;
+   background-color: #13245;
 
 	.site-branding__logo {
 	    margin-right: .2rem;
@@ -65,46 +66,34 @@ padding: 0.75em 1em;
 	}
 
 	.bloque-sitio-nombre-slogan {
-        font-family: Maven Pro;
-    	color: #FFFFFF;
-  		position: absolute;
-  		margin-left: 8.1rem;
-    	width: 25rem;
+        font-family: Amaranth;
+    	color: #000000;
+  		margin-left: 3rem;
+    	width: 30rem;
 
     #nombre-sitio{
    		 color: #000000;
-  		 font-size: 4rem;
- 		 margin-top: 0rem;
   		 position: relative;
- 		 top: 0.1em;
+ 		 text-transform: uppercase;
+ 		 font-size: 3rem;
+ 		 
+ 		 margin-bottom: 0;
+		 margin-top: 0rem;
+ 		 
  		 a{
     	 color: black;	
     	text-decoration: none;
    		&:hover{
-    		color: white;
+    		color: blue;
     	}}
     }
 
-    #universidad{
-    		position: absolute;
-    		top: 3.8rem;
-    	   	font-size : 2.5rem;
-    	   	text-transform: none;    	   	
-    	   	color: gray;
- 		 a{
-    	 color: gray;	
-    	text-decoration: none;    	   	
-    	   	&:hover{
-    	   		color: white;
-    	   	}
-    	   }
-    }
     #slogan{
-		width: 36rem;
-    	position: relative ;
-    	margin-top: 5rem;
-    	font-size:1.6rem;
-   		text-transform: none;
+    font-size: 1.5rem;
+    margin-top: 0rem;
+    position: absolute;
+    text-transform: none;
+    width: 30rem;
 	}
 }}
 

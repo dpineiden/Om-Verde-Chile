@@ -1,5 +1,10 @@
 /*! normalize.css v3.0.0 | MIT License | git.io/normalize */
 /*! normalize.css v3.0.0 | HTML5 Display Definitions | MIT License | git.io/normalize */
+@import url("http://fonts.googleapis.com/css?family=Merriweather+Sans");
+@import url("http://fonts.googleapis.com/css?family=Amaranth");
+@import url("http://fonts.googleapis.com/css?family=Expletus+Sans");
+@import url("http://fonts.googleapis.com/css?family=Gentium+Book+Basic");
+@import url("http://fonts.googleapis.com/css?family=Sansita+One");
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/\.rvm\/gems\/ruby-1\.9\.3-p545\/gems\/compass-normalize-1\.5\/stylesheets\/normalize\/_html5\.scss}line{font-family:\0000320}}
 article,
 aside,
