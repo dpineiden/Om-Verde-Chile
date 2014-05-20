@@ -47,7 +47,7 @@ img, media {
   .l-branding .bloque-sitio-nombre-slogan {
     font-family: Amaranth;
     color: #000000;
-    margin-left: 6rem;
+    margin-left: 0rem;
     width: 30rem; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/default\/themes\/om_verde_chile\/sass\/om-verde-chile\.styles\.scss}line{font-family:\0000374}}
     .l-branding .bloque-sitio-nombre-slogan #nombre-sitio {
