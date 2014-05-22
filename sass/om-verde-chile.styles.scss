@@ -25,7 +25,6 @@
 //Menu Principal Superfish
 
 .l-region--navigation {
-    background-color: #B3E7FF;
     float: left;
     height: 1.8rem;
     margin-left: 0;
@@ -36,7 +35,7 @@
     z-index: 1;
 
     .active {
-    background: none repeat scroll 0 0 #FFA500;
+    background: none repeat scroll 0 0 #A1BEF4;
 }
 
 }
@@ -59,6 +58,8 @@
     
    .sf-depth-1 {
     text-align: center;
+    text-decoration: none;
+    font-family: Amaranth;
 }
 
     .sf-depth-2 {
@@ -72,10 +73,11 @@
 
 a:active,  a:hover{
 	background-color: orange;
-    border-bottom-left-radius: 20px;
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
-    border-top-left-radius: 20px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    width: 100%;
 }
 
 
