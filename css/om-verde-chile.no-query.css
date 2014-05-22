@@ -177,3 +177,9 @@ img, media {
   .l-region--footer .hecho-con-drupal {
     left: 2rem;
     position: relative; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/default\/themes\/om_verde_chile\/sass\/om-verde-chile\.styles\.scss}line{font-family:\00003286}}
+footer {
+  position: relative;
+  text-align: center;
+  top: 5rem; }
