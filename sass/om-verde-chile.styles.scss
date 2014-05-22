@@ -47,6 +47,7 @@
     background: none repeat scroll 0 0 #FFA500;
     border-bottom-left-radius: 10px;
     border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
     padding: 0 8px 9px 0 !important;
     top: 1.5rem;
 }
@@ -136,6 +137,24 @@ a:active,  a:hover{
     width: 30rem;
 	}
 }}
+
+//contenido
+
+
+.l-content {
+    position: relative;
+    top: 3rem;
+    
+    .breadcrumb {
+    display: inline-flex;
+    li{
+        display: block;
+        margin: 10px;
+    }
+}
+}
+
+
 
 //posicion main content: 
 .l-main.l-constrained {
