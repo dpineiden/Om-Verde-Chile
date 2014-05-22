@@ -168,10 +168,19 @@ a:active,  a:hover{
     width: 30%;//100/n 
     float:left;
 }
+
+
 //texto de teaser justificado
     .teaser-front {
     text-align: justify;
+    height: 22rem;
 }
+
+.titulo-teaser {
+    font-size: 1rem;
+    height: 6rem;
+}
+
 
 @media all and (max-width: 649px) {
 
