@@ -22,29 +22,66 @@
 @import "components/**/*";
 
 //se configura la zona de menú superior
-.l-region--navigation{
-	width: 100%;
-	position: absolute;
-	width: 100%;
-	float: left;
-	margin-right: 0%;
-	margin-left: 0%;
-	z-index: 1;
-	top:-3.0rem;
-	height: 2.8rem;
-    background-color:  #3580CC;
-.menu-central{
-	position: relative;
+//Menu Principal Superfish
+
+.l-region--navigation {
+    background-color: #B3E7FF;
+    float: left;
+    height: 1.8rem;
+    margin-left: 0;
+    margin-right: 0;
+    position: absolute;
+    top: -2rem;
+    width: 100%;
+    z-index: 1;
+
+    .active {
+    background: none repeat scroll 0 0 #FFA500;
 }
 
-.sf-menu.sf-style-blue a {
-border: 1px outset #3580CC;
-color: #D3FFF4;
-padding: 0.75em 1em;
+}
+
+//menu desplegable
+
+.sf-menu.sf-horizontal.sf-shadow ul, .sf-menu.sf-vertical.sf-shadow ul, .sf-menu.sf-navbar.sf-shadow ul ul {
+    background: none repeat scroll 0 0 #FFA500;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 0 8px 9px 0 !important;
+    top: 1.5rem;
 }
 
 
+
+.sf-menu {
+    text-decoration: none;
+    line-height: 1.5rem;
+    
+   .sf-depth-1 {
+    text-align: center;
 }
+
+    .sf-depth-2 {
+    list-style: none outside none;
+    margin: 0.1rem 0.1rem 0.1rem 1rem;
+    padding: 0;
+    text-align: left;
+    text-decoration: none;
+    width: 100%;
+}
+
+a:active,  a:hover{
+	background-color: orange;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+
+
+}
+
 .l-header{
 	position: relative;
 	top: 3rem;
