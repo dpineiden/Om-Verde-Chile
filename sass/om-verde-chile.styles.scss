@@ -186,8 +186,9 @@ a:active,  a:hover{
     font-family: Amaranth;
     font-size: 1.05rem;
     color: #000000;
+    a{
     text-decoration:none;
-}
+}}
 
 
 @media all and (max-width: 649px) {
