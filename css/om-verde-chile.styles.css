@@ -240,7 +240,7 @@ img, media {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/default\/themes\/om_verde_chile\/sass\/om-verde-chile\.styles\.scss}line{font-family:\00003319}}
     .ultimos-articulos .view-content .fila-ultimos-articulos .grupo-clase-contenido ul {
       font-size: 1.5rem;
-      left: -3rem;
+      left: 0rem;
       list-style: none outside none;
       position: relative;
       text-align: center;
@@ -292,13 +292,13 @@ img, media {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/default\/themes\/om_verde_chile\/sass\/om-verde-chile\.styles\.scss}line{font-family:\00003404}}
     .ultimos-articulos .view-content .fila-ultimos-articulos .grupo-clase-contenido ul {
       font-size: 1.1rem;
-      left: -3rem;
+      left: 0rem;
       list-style: none outside none;
       margin: 0;
       position: relative;
       text-align: center;
       top: 0.5rem;
-      width: 120%;
+      width: 100%;
       margin: 0;
       padding: 0; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/default\/themes\/om_verde_chile\/sass\/om-verde-chile\.styles\.scss}line{font-family:\00003421}}
