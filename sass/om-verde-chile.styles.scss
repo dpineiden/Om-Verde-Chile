@@ -156,11 +156,14 @@ a:active,  a:hover{
 
 //teaser
 
+    
 .grupo-clase-contenido {
     background: none repeat scroll 0 0 rgba(255, 178, 27, 0.99);
     display: inline-flex;
     font-family: Liberation Sans;
     width: 100%;
+    position: relative;
+    top: 12px;
 }
 
 .clase-contenido {
