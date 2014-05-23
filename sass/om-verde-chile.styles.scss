@@ -192,7 +192,8 @@ a:active,  a:hover{
     color: #385240;
     width: 60%;
  ul{    
-    list-style:none;   
+    list-style:none; 
+    margin: 0;  
 .shs-hierarchy {
     margin-bottom: 0;
     margin-top: 0;
@@ -530,7 +531,6 @@ ul {
     font-size: 0.95rem;
     left: -3rem;
     list-style: none outside none;
-    margin: 0;
     position: relative;
     text-align: center;
     top: 0.2rem;
