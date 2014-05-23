@@ -216,7 +216,18 @@ a:active,  a:hover{
     color: black;
 }}
 
+.fila-ultimos-articulos {
+    height: 26rem;
+}
 
+.field-content.imagen-front {
+    border: 10rem none;
+    bottom: 1rem;
+    margin-bottom: 1rem;
+    position: relative;
+    text-align: center;
+    top: 1rem;
+}
 @media all and (max-width: 649px) {
 
   .ultimos-articulos {
