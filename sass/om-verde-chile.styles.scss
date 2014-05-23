@@ -347,7 +347,7 @@ ul {
 
 }
 
-@media all and (min-width: 650px) and (max-width: 959px) {
+@media all and (min-width: 650px) and (max-width: 999px) {
 
   .ultimos-articulos{
 
@@ -417,6 +417,16 @@ ul {
     
     .shs-hierarchy {
     margin: 0;
+    
+    .shs-parent {
+    background: none repeat scroll 0 0 #1430FF;
+    color: #FFFFFF;
+}
+.shs-term-selected {
+    background: none repeat scroll 0 0 #AFEEEE;
+}  
+
+
 }
 	
 
@@ -434,7 +444,7 @@ ul {
 
 }
 
-@media all and (min-width: 960px) and (max-width: 1200px) {
+@media all and (min-width: 1000px) and (max-width: 1200px) {
 
 
   .ultimos-articulos {
@@ -507,15 +517,14 @@ ul {
 
 ul {
    
-    font-size: 1rem;
+    font-size: 1.2rem;
     left: -3rem;
     list-style: none outside none;
+    margin: 0;
     position: relative;
     text-align: center;
-    top: -0.45rem;
-    vertical-align: middle;
+    top: -0.2rem;
     width: 130%;
-    
     
     .shs-hierarchy {
     font-size: 0.95rem;
@@ -525,7 +534,17 @@ ul {
     position: relative;
     text-align: center;
     top: 0.2rem;
-    width: 130%;
+    width: 140%;
+    
+    .shs-parent {
+    background: none repeat scroll 0 0 #1430FF;
+    color: #FFFFFF;
+}
+.shs-term-selected {
+    background: none repeat scroll 0 0 #AFEEEE;
+}  
+
+
 }
 
 }
@@ -617,13 +636,12 @@ ul {
 }
 
 ul {
-    font-size: 0.8rem;
+    font-size: 1.1rem;
     left: -3rem;
     list-style: none outside none;
     position: relative;
     text-align: center;
-    top: 0.25rem;
-    width: 144%;
+    width: 130%;
     
     .shs-hierarchy {
     margin: 0;
@@ -635,6 +653,17 @@ ul {
     text-align: center;
     top: 0.5rem;
     width: 130%;
+    
+    
+    .shs-parent {
+    background: none repeat scroll 0 0 #1430FF;
+    color: #FFFFFF;
+}
+.shs-term-selected {
+    background: none repeat scroll 0 0 #AFEEEE;
+}  
+
+
     }
 
 		
