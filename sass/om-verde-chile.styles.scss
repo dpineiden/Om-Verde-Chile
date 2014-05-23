@@ -170,6 +170,7 @@ a:active,  a:hover{
 .clase-contenido {
     color: #0000FF;
     font-style: italic;
+	width: 30%;
 }
 
 .clase-contenido > p {
@@ -183,17 +184,26 @@ a:active,  a:hover{
     margin-left: 5px;
     margin-right: 5px;
     position: relative;
+    width: 10%;
 }
 
 
 .tema-contenido {
     color: #385240;
+    width: 60%;
  ul{    
     list-style:none;   
 .shs-hierarchy {
     margin-bottom: 0;
     margin-top: 0;
-    
+
+.shs-parent {
+    background: none repeat scroll 0 0 #1430FF;
+    color: #FFFFFF;
+}
+.shs-term-selected {
+    background: none repeat scroll 0 0 #AFEEEE;
+}    
 
     }
     
@@ -252,6 +262,11 @@ a:active,  a:hover{
     text-align: center;
     top: 1rem;
 }
+
+
+
+
+///responsivo
 @media all and (max-width: 649px) {
 
   .ultimos-articulos {
@@ -404,14 +419,6 @@ ul {
     margin: 0;
 
 
-.shs-parent {
-    background: none repeat scroll 0 0 #1430FF;
-    color: #FFFFFF;
-}
-
-.shs-term-selected {
-    background: none repeat scroll 0 0 #AFEEEE;
-}	
 }
 	
 
@@ -513,17 +520,19 @@ ul {
     
     
     .shs-hierarchy {
+    font-size: 0.95rem;
+    left: -3rem;
+    list-style: none outside none;
     margin: 0;
+    position: relative;
+    text-align: center;
+    top: 0.2rem;
+    width: 130%;
 }
 
-.shs-parent {
-    background: none repeat scroll 0 0 #1430FF;
-    color: #FFFFFF;
+}
 
-
-.shs-term-selected {
-    background: none repeat scroll 0 0 #AFEEEE;
-}		}}
+	}}
 
 }
 //end css clasificacion
@@ -594,6 +603,7 @@ ul {
     font-style: italic;
     margin-left: 0rem;
     padding-left: 0.5rem;
+    padding-top: 1rem;
     width: 30%;
 }
 
@@ -622,16 +632,17 @@ ul {
     
     .shs-hierarchy {
     margin: 0;
-}
+    font-size: 1rem;
+    left: -3rem;
+    list-style: none outside none;
+    margin: 0;
+    position: relative;
+    text-align: center;
+    top: 0.5rem;
+    width: 130%;
+    }
 
-.shs-parent {
-    background: none repeat scroll 0 0 #1430FF;
-    color: #FFFFFF;
-
-
-.shs-term-selected {
-    background: none repeat scroll 0 0 #AFEEEE;
-}		}}
+		}}
 
 }
 //end css clasificacion
