@@ -164,16 +164,23 @@ a:active,  a:hover{
     width: 100%;
     position: relative;
     top: 12px;
-}
 
 .clase-contenido {
     color: #0000FF;
     font-style: italic;
 }
 
+.pleca-clase-contenido {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
 .tema-contenido {
     color: #385240;
 }
+
+}
+
 
 //posicion main content: 
 .l-main.l-constrained {
