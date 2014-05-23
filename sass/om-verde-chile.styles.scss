@@ -154,7 +154,23 @@ a:active,  a:hover{
 }
 }
 
+//teaser
 
+.grupo-clase-contenido {
+    background: none repeat scroll 0 0 rgba(255, 178, 27, 0.99);
+    display: inline-flex;
+    font-family: Liberation Sans;
+    width: 100%;
+}
+
+.clase-contenido {
+    color: #0000FF;
+    font-style: italic;
+}
+
+.tema-contenido {
+    color: #385240;
+}
 
 //posicion main content: 
 .l-main.l-constrained {
