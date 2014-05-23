@@ -214,6 +214,7 @@ a:active,  a:hover{
     color: #000000;
     a{
     text-decoration:none;
+    color: black;
 }}
 
 
@@ -229,6 +230,10 @@ a:active,  a:hover{
           margin-left:5%;
           margin-right:5%;
         float:left;
+        
+        .titulo-teaser {
+		font-size: .8rem;
+		}
 
       }
 
@@ -255,6 +260,10 @@ a:active,  a:hover{
           margin-right:5%;
 
         }
+        
+        .titulo-teaser {
+		font-size: .9rem;
+		}
 
       }
 
