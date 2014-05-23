@@ -186,15 +186,6 @@ a:active,  a:hover{
 }
 
 
-ul.shs-hierarchy {
-    left: -2rem;
-    list-style: none outside none;
-    margin: 0;
-    position: relative;
-    top: 0.6rem;
-    width: 110%;
-}
-
 .tema-contenido {
     color: #385240;
     
@@ -284,7 +275,9 @@ ul.shs-hierarchy {
     width: 100%;
 }
 
-.grupo-clase-contenido .clase-contenido {
+.grupo-clase-contenido {
+
+.clase-contenido {
     color: #0000FF;
     font-size: 3rem;
     font-style: italic;
@@ -292,7 +285,7 @@ ul.shs-hierarchy {
     width: 30%;
 }
 
-.grupo-clase-contenido .pleca-clase-contenido {
+ .pleca-clase-contenido {
     color: #008000;
     font-size: 3rem;
     margin-left: 5px;
@@ -322,7 +315,9 @@ ul {
 
 .shs-term-selected {
     background: none repeat scroll 0 0 #AFEEEE;
-}	}	
+}	}
+
+}
 
       }
 
@@ -364,7 +359,9 @@ ul {
     width: 100%;
 }
 
-.grupo-clase-contenido .clase-contenido {
+.grupo-clase-contenido{
+
+ .clase-contenido {
     color: #0000FF;
     font-size: 1.4rem;
     font-style: italic;
@@ -373,7 +370,7 @@ ul {
     width: 30%;
 }
 
-.grupo-clase-contenido .pleca-clase-contenido {
+.pleca-clase-contenido {
     color: #008000;
     font-size: 3rem;
     margin-left: 5px;
@@ -405,7 +402,11 @@ ul {
 
 .shs-term-selected {
     background: none repeat scroll 0 0 #AFEEEE;
-}		}
+}		
+
+}
+
+}
 
 //end css clasificacion
 
@@ -462,7 +463,9 @@ ul {
     width: 100%;
 }
 
-.grupo-clase-contenido .clase-contenido {
+.grupo-clase-contenido{
+
+ .clase-contenido {
     color: #0000FF;
     font-size: 0.9rem;
     font-style: italic;
@@ -471,7 +474,7 @@ ul {
     width: 30%;
 }
 
-.grupo-clase-contenido .pleca-clase-contenido {
+.pleca-clase-contenido {
     color: #008000;
     font-size: 3rem;
     margin-left: 5px;
@@ -505,6 +508,7 @@ ul {
     background: none repeat scroll 0 0 #AFEEEE;
 }		}
 
+}
 //end css clasificacion
 
 
