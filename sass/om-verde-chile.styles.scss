@@ -286,7 +286,7 @@ a:active,  a:hover{
 		
 ///css para clasificacion
 		
-.ultimos-articulos .fila-ultimos-articulos {
+.ultimos-articulos{
     float: left;
     margin-left: 0;
     margin-right: 5%;
@@ -372,7 +372,7 @@ ul {
 		
 		///css para clasificacion
 		
-.ultimos-articulos .view-content .fila-ultimos-articulos {
+.ultimos-articulos .view-content{
     float: left;
     margin-left: 0;
     margin-right: 5%;
@@ -417,8 +417,6 @@ ul {
     
     .shs-hierarchy {
     margin: 0;
-
-
 }
 	
 
@@ -475,7 +473,7 @@ ul {
     height: 30rem;
 }
 		
-.ultimos-articulos .view-content .fila-ultimos-articulos {
+.ultimos-articulos .view-content{
     float: left;
     margin-left: 0;
     margin-right: 5%;
@@ -532,9 +530,9 @@ ul {
 
 }
 
-	}}
+	}
 
-}
+
 //end css clasificacion
 
 
@@ -618,9 +616,6 @@ ul {
     width: 10%;
 }
 
-
-
-
 ul {
     font-size: 0.8rem;
     left: -3rem;
@@ -642,12 +637,10 @@ ul {
     width: 130%;
     }
 
-		}}
+		
 
-}
+}}
 //end css clasificacion
-
-
 
 
       }
