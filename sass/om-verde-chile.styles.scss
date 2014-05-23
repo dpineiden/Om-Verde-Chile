@@ -326,12 +326,13 @@ ul {
     margin: 3px 0 0;    
 .shs-hierarchy {
     margin: 0;
+li{    
 .shs-parent {
     background: none repeat scroll 0 0 #1430FF;
     color: #FFFFFF;}
 .shs-term-selected {
     background: none repeat scroll 0 0 #AFEEEE;
-}}}}
+}}}}}
 
       }
 
@@ -411,14 +412,14 @@ ul {
     
     .shs-hierarchy {
     margin: 0;
-    
+li{    
     .shs-parent {
     background: none repeat scroll 0 0 #1430FF;
     color: #FFFFFF;
 }
 .shs-term-selected {
     background: none repeat scroll 0 0 #AFEEEE;
-}  
+}  }
 
 
 }
@@ -528,14 +529,14 @@ ul {
     text-align: center;
     top: 0.2rem;
     width: 140%;
-    
+li{    
     .shs-parent {
     background: none repeat scroll 0 0 #1430FF;
     color: #FFFFFF;
 }
 .shs-term-selected {
     background: none repeat scroll 0 0 #AFEEEE;
-}  
+}  }
 
 
 }
@@ -647,14 +648,14 @@ ul {
     top: 0.5rem;
     width: 130%;
     
-    
+li{    
     .shs-parent {
     background: none repeat scroll 0 0 #1430FF;
     color: #FFFFFF;
 }
 .shs-term-selected {
     background: none repeat scroll 0 0 #AFEEEE;
-}  
+}  }
 
 
     }
