@@ -320,8 +320,10 @@ ul {
     position: relative;
     text-align: center;
     margin: 3px 0 0;    
+    padding:0;
+
 .shs-hierarchy {
-    margin: 0;}
+}
 li{    
 .shs-parent {
     background: none repeat scroll 0 0 #1430FF;
@@ -405,9 +407,11 @@ ul {
     text-align: center;
     top: 0.5rem;
     width: 120%;
+    margin: 0;
+    padding:0;
     
     .shs-hierarchy {
-    margin: 0;}
+}
     
     
 li{    
@@ -437,7 +441,7 @@ li{
 
 }
 
-@media all and (min-width: 961px) and (max-width: 1099px) {
+@media all and (min-width: 961px) and (max-width: 1299px) {
 
 
   .ultimos-articulos {
@@ -487,10 +491,10 @@ li{
 
  .clase-contenido {
     color: #0000FF;
-    font-size: 1.5rem;
+    font-size: 0.9rem;
     font-style: italic;
     margin-left: 0rem;
-    padding-left: 0.5rem;
+    padding-left: 0.2rem;
     width: 30%;
 }
 
@@ -510,13 +514,14 @@ li{
 
 ul {
    
-    font-size: 1.1rem;
-    left: -3rem;
+    font-size: 1rem;
+    left: 0rem;
     list-style: none outside none;
     margin: 0;
+    padding: 0;
     position: relative;
     text-align: center;
-    width: 110%;
+    top: 0.2rem;
     
     .shs-hierarchy {
     font-size: 0.95rem;
@@ -557,7 +562,7 @@ li{
 }
 
 
-@media all and (min-width: 1100px){
+@media all and (min-width: 1300px){
 
 
   .ultimos-articulos {
@@ -607,7 +612,7 @@ li{
 
  .clase-contenido {
     color: #0000FF;
-    font-size: 0.9rem;
+    font-size: 1.2rem;
     font-style: italic;
     margin-left: 0rem;
     padding-left: 0.5rem;
@@ -627,15 +632,17 @@ li{
 }
 
 ul {
-    font-size: 1.1rem;
-    left: -3rem;
+    font-size: 1.15rem;
+    left: 0rem;
     list-style: none outside none;
+    margin: 0;
+    padding: 0;
     position: relative;
     text-align: center;
-    width: 130%;
+    
         
     .shs-hierarchy {
-    margin: 0;
+
     font-size: 1rem;
     left: -3rem;
     list-style: none outside none;
