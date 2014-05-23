@@ -197,14 +197,14 @@ a:active,  a:hover{
 .shs-hierarchy {
     margin-bottom: 0;
     margin-top: 0;
-
+li{
 .shs-parent {
     background: none repeat scroll 0 0 #1430FF;
     color: #FFFFFF;
 }
 .shs-term-selected {
     background: none repeat scroll 0 0 #AFEEEE;
-}    
+}  }  
 
     }
     
@@ -323,22 +323,15 @@ ul {
     list-style: none outside none;
     position: relative;
     text-align: center;
-    margin: 3px 0 0;
-    
+    margin: 3px 0 0;    
 .shs-hierarchy {
     margin: 0;
-
-
 .shs-parent {
     background: none repeat scroll 0 0 #1430FF;
-    color: #FFFFFF;
-}
-
+    color: #FFFFFF;}
 .shs-term-selected {
     background: none repeat scroll 0 0 #AFEEEE;
-}}	}
-
-}
+}}}}
 
       }
 
@@ -524,8 +517,8 @@ ul {
     margin: 0;
     position: relative;
     text-align: center;
-    top: -0.2rem;
-    width: 130%;
+    top: 0.5rem;
+    width: 110%;
     
     .shs-hierarchy {
     font-size: 0.95rem;
