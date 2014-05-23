@@ -188,13 +188,13 @@ a:active,  a:hover{
 
 .tema-contenido {
     color: #385240;
-    
+ ul{    
+    list-style:none;   
 .shs-hierarchy {
     margin-bottom: 0;
     margin-top: 0;
     
-    ul{    
-    list-style:none;
+
     }
     
     
@@ -299,8 +299,6 @@ a:active,  a:hover{
     width: 10%;
 }
 
-.shs-hierarchy {
-    margin: 0;
 
 
 ul {
@@ -309,6 +307,10 @@ ul {
     list-style: none outside none;
     position: relative;
     text-align: center;
+    
+    
+.shs-hierarchy {
+    margin: 0;
 }
 
 .shs-parent {
@@ -384,8 +386,7 @@ ul {
     width: 10%;
 }
 
-.shs-hierarchy {
-    margin: 0;
+
 
 
 ul {
@@ -396,6 +397,9 @@ ul {
     text-align: center;
     top: 0.5rem;
     width: 120%;
+    
+    .shs-hierarchy {
+    margin: 0;
 }
 
 .shs-parent {
@@ -405,7 +409,9 @@ ul {
 
 .shs-term-selected {
     background: none repeat scroll 0 0 #AFEEEE;
-}		
+}	
+
+	
 
 }
 
@@ -488,8 +494,7 @@ ul {
     width: 10%;
 }
 
-.shs-hierarchy {
-    margin: 0;
+
 
 
 ul {
@@ -500,6 +505,9 @@ ul {
     text-align: center;
     top: 0.25rem;
     width: 144%;
+    
+    .shs-hierarchy {
+    margin: 0;
 }
 
 .shs-parent {
