@@ -196,7 +196,7 @@ a:active,  a:hover{
     margin: 0;  
 .shs-hierarchy {
     margin-bottom: 0;
-    margin-top: 0;
+    margin-top: 0;}
 li{
 .shs-parent {
     background: none repeat scroll 0 0 #1430FF;
@@ -205,10 +205,6 @@ li{
 .shs-term-selected {
     background: none repeat scroll 0 0 #AFEEEE;
 }  }  
-
-    }
-    
-    
     
 }
     
@@ -325,14 +321,14 @@ ul {
     text-align: center;
     margin: 3px 0 0;    
 .shs-hierarchy {
-    margin: 0;
+    margin: 0;}
 li{    
 .shs-parent {
     background: none repeat scroll 0 0 #1430FF;
     color: #FFFFFF;}
 .shs-term-selected {
     background: none repeat scroll 0 0 #AFEEEE;
-}}}}}
+}}}}
 
       }
 
@@ -411,7 +407,9 @@ ul {
     width: 120%;
     
     .shs-hierarchy {
-    margin: 0;
+    margin: 0;}
+    
+    
 li{    
     .shs-parent {
     background: none repeat scroll 0 0 #1430FF;
@@ -422,7 +420,7 @@ li{
 }  }
 
 
-}
+
 	
 
 }
@@ -518,7 +516,7 @@ ul {
     margin: 0;
     position: relative;
     text-align: center;
-    top: 0.5rem;
+    top: 0.4rem;
     width: 110%;
     
     .shs-hierarchy {
@@ -528,7 +526,7 @@ ul {
     position: relative;
     text-align: center;
     top: 0.2rem;
-    width: 140%;
+    width: 140%;}
 li{    
     .shs-parent {
     background: none repeat scroll 0 0 #1430FF;
@@ -539,7 +537,7 @@ li{
 }  }
 
 
-}
+
 
 }
 
@@ -636,6 +634,7 @@ ul {
     position: relative;
     text-align: center;
     width: 130%;
+    top: .4rem;
     
     .shs-hierarchy {
     margin: 0;
@@ -646,7 +645,7 @@ ul {
     position: relative;
     text-align: center;
     top: 0.5rem;
-    width: 130%;
+    width: 130%;}
     
 li{    
     .shs-parent {
@@ -658,7 +657,7 @@ li{
 }  }
 
 
-    }
+    
 
 		
 
