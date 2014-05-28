@@ -690,7 +690,7 @@ li{
 //CSS Footer
 
 
-.l-region--footer {
+.l-footer {
     display: inline-flex;
     box-align:center
     .licencia-copyleft-procomun{
@@ -740,7 +740,7 @@ footer {
     width: 50%;
 }
 
-.views-field.views-field-title {
+.view-home-slider {
     height: 5px;
     margin: 0;
     padding: 0;
@@ -777,4 +777,11 @@ footer {
     text-align: center;
     width: 100%;
     top: -0.5rem;
+}
+
+
+//resumen old cluch bloque
+.item-listado-viejaescuela {
+    list-style: none outside none;
+    padding: 0;
 }

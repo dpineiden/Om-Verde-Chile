@@ -454,18 +454,18 @@ img, media {
       .ultimos-articulos .view-content .fila-ultimos-articulos .grupo-clase-contenido ul li .shs-term-selected {
         background: none repeat scroll 0 0 #AFEEEE; } }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/default\/themes\/om_verde_chile\/sass\/om-verde-chile\.styles\.scss}line{font-family:\00003693}}
-.l-region--footer {
+.l-footer {
   display: inline-flex; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/default\/themes\/om_verde_chile\/sass\/om-verde-chile\.styles\.scss}line{font-family:\00003696}}
-  .l-region--footer box-align:center
+  .l-footer box-align:center
   .licencia-copyleft-procomun {
     right: 2rem; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/default\/themes\/om_verde_chile\/sass\/om-verde-chile\.styles\.scss}line{font-family:\00003699}}
-  .l-region--footer .contactar {
+  .l-footer .contactar {
     left: 2rem;
     width: 110px; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/default\/themes\/om_verde_chile\/sass\/om-verde-chile\.styles\.scss}line{font-family:\00003703}}
-  .l-region--footer .hecho-con-drupal {
+  .l-footer .hecho-con-drupal {
     left: 2rem;
     position: relative; }
 
@@ -497,7 +497,7 @@ footer .l-footer {
   width: 50%; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/default\/themes\/om_verde_chile\/sass\/om-verde-chile\.styles\.scss}line{font-family:\00003743}}
-.views-field.views-field-title {
+.view-home-slider {
   height: 5px;
   margin: 0;
   padding: 0;
@@ -535,3 +535,8 @@ footer .l-footer {
   text-align: center;
   width: 100%;
   top: -0.5rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/default\/themes\/om_verde_chile\/sass\/om-verde-chile\.styles\.scss}line{font-family:\00003784}}
+.item-listado-viejaescuela {
+  list-style: none outside none;
+  padding: 0; }
