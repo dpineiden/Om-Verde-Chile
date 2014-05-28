@@ -137,6 +137,11 @@ a:active,  a:hover{
     width: 30rem;
 	}
 }}
+//menus sobre tood
+
+.flexslider_views_slideshow_main.views_slideshow_main.flexslider_views_slideshow-processed {
+    z-index: -1;
+}
 
 //contenido
 
@@ -165,7 +170,7 @@ a:active,  a:hover{
     position: relative;
     top: 12px;
     width: 100%;
-	
+	border-radius: 5px;
 	
 .clase-contenido {
     color: #0000FF;
@@ -703,7 +708,59 @@ li{
 
 
 footer {
+
+    .l-footer{
     position: relative;
     text-align: center;
-    top: 5rem;
+    top: 5rem;}
+    
+    .submitted {//enviado por
+
+}
+}
+
+//añadir secciones de grilla
+
+.l-main{
+    @include grid-span(12,1);
+
+}
+
+//flexslider
+.field-content.titulo-slider {
+    background: none repeat scroll 0 0 rgba(16, 115, 220, 0.77);
+    color: #E72D2D;
+    font-family: sans-serif;
+    font-size: 20px;
+    padding: 0;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    top: 40px;
+    width: 50%;
+}
+
+.views-field.views-field-title {
+    background: none repeat scroll 0 0 #FF0000;
+    height: 5px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 30px;
+    z-index: 1;
+}
+
+.field-content.cuerpo-slider {
+    font-size: 0.7rem;
+}
+
+.leermas-slider {
+    text-align: right;
+}
+
+.field-content.leermas-slider > a {
+    color: #6080D2;
+    position: relative;
+    text-align: left;
+    text-decoration: none;
 }
