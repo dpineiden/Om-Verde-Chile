@@ -741,12 +741,14 @@ footer {
 }
 
 .view-home-slider {
-    height: 5px;
+    height: 100%;
     margin: 0;
     padding: 0;
     position: relative;
-    top: 30px;
-    z-index: 1;
+    z-index: -2;
+    .views-field.views-field-title {
+    height: 0;
+}
 }
 
 .field-content.cuerpo-slider {
