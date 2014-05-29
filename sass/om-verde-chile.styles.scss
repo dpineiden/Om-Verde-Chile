@@ -692,17 +692,16 @@ li{
 
 .l-footer {
     display: inline-flex;
-    box-align:center
+    width:100%;
+    
     .licencia-copyleft-procomun{
-    right: 2rem;
+    width: 50%;
     }
     .contactar {
-    left: 2rem;
-    width: 110px;
-    }    
+    width: 25%;
+   }    
     .hecho-con-drupal {
-    left: 2rem;
-    position: relative;
+    width: 25%;
     }
 }
 
@@ -715,30 +714,9 @@ li{
     position: relative;
     top: 5rem;}
     
-footer {   
-    .submitted {//enviado por
-
-}
-}
-
 //añadir secciones de grilla
 
-.l-main{
-    @include grid-span(12,1);
 
-}
-
-.contactar {
-    width: 25%;
-}
-
-.licencia {
-    width: 50%;
-}
-
-.hecho-drupal {
-    width: 25%;
-}
 //flexslider
 .field-content.titulo-slider {
     background: none repeat scroll 0 0 rgba(16, 115, 220, 0.77);
