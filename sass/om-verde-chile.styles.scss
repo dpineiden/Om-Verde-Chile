@@ -706,12 +706,15 @@ li{
     }
 }
 
-
+.l-region.l-region--footer {
+    display: inherit;
+    text-align: center;
+}
 
     .l-footer{
     position: relative;
-    text-align: center;
     top: 5rem;}
+    
 footer {   
     .submitted {//enviado por
 
@@ -725,6 +728,17 @@ footer {
 
 }
 
+.contactar {
+    width: 25%;
+}
+
+.licencia {
+    width: 50%;
+}
+
+.hecho-drupal {
+    width: 25%;
+}
 //flexslider
 .field-content.titulo-slider {
     background: none repeat scroll 0 0 rgba(16, 115, 220, 0.77);
