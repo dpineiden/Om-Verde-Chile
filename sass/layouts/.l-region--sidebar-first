@@ -1,0 +1,4 @@
+.l-page{
+    width:90%;
+    margin: 3px auto;
+}

@@ -13,30 +13,26 @@
 //
 // If there are variables, functions or mixins that depend on each other and
 // therefore need to be imported in a specific order you can import them
-// directly. Variables-, function- or mixin providing partials should never
-// output any styles themselves: Importing them multiple times to resolve
+// directlypx;. Variables-, function- or mixin providing partials should never
 // dependencies shouldn't be a problem.
 @import "variables/**/*";
 @import "abstractions/**/*";
 @import "base/**/*";
 @import "components/**/*";
+@import "layouts/**/*";
+@import "menus/**/*";
 
+//
+//@include breakpoint($celular){
+//body{
+//background-color: $amarillo;
+//}}
 //se configura la zona de menú superior
 //Menu Principal Superfish
 
 .l-region--navigation {
-    float: left;
-    height: 1.8rem;
-    margin-left: 0;
-    margin-right: 0;
-    position: absolute;
-    top: -2rem;
-    width: 100%;
-    z-index: 1;
-
     .active {
     background: none repeat scroll 0 0 #A1BEF4;
-    width: 90%;
 }
 
 }
@@ -86,22 +82,16 @@ a:active,  a:hover{
 
 }
 
-.l-header{
-	position: relative;
-	top: 3rem;
-}
 //se configura la zona de logo y marca
 
-.l-region.l-region--branding.region--debug.region--debug--branding {
+.l-region.l-region--branding{
     height: 8rem;
     width: 32rem;
 }
 
 .l-branding {
-   width: 60%;
    background-color: #13245;
-   display: inline-flex;
-   
+  
 .site-logo img {
     height: auto;
     width: 6rem;
@@ -119,8 +109,7 @@ a:active,  a:hover{
  		 font-size: 3rem;
  		 
  		 margin-bottom: 0;
-		 margin-top: 0rem;
- 		 
+		 margin-top: 0rem; 		 
  		 a{
     	 color: black;	
     	text-decoration: none;
@@ -146,10 +135,6 @@ a:active,  a:hover{
 //contenido
 
 
-.l-content {
-    position: relative;
-    top: 3rem;
-    
     .breadcrumb {
     display: inline-flex;
     li{
@@ -157,11 +142,7 @@ a:active,  a:hover{
         margin: 10px;
     }
 }
-}
-
-//teaser
-
-    
+//teaser    
 .grupo-clase-contenido {
     background: none repeat scroll 0 0 rgba(255, 178, 27, 0.99);
     display: inline-flex;
