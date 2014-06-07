@@ -91,17 +91,27 @@ a:active,  a:hover{
 
 .l-branding {
    background-color: #13245;
-  
-.site-logo img {
+  overflow: hidden;
+.site-logo {
+    float: left;
     height: auto;
     width: 6rem;
+    max-width: 30%;
+    margin:5px;
+
+    img {
+    height: auto;
+    max-width: 100%;
+}
 }
 	.bloque-sitio-nombre-slogan {
         font-family: Amaranth;
     	color: #000000;
   		margin-left: 0rem;
     	width: 30rem;
-
+        position: relative;
+        top: 10px;
+        vertical-align: middle;
     #nombre-sitio{
    		 color: #000000;
   		 position: relative;
@@ -121,7 +131,7 @@ a:active,  a:hover{
     #slogan{
     font-size: 1.5rem;
     margin-top: 0rem;
-    position: absolute;
+    position: relative;
     text-transform: none;
     width: 30rem;
 	}
