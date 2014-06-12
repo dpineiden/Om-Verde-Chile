@@ -30,6 +30,18 @@
 //se configura la zona de menú superior
 //Menu Principal Superfish
 
+.l-principal {
+width: 95%;
+float: right;
+margin-left: 0;
+margin-right: 0;
+clear: none;
+background-color: powderblue;
+position: absolute;
+vertical-align: middle;
+margin: 0 auto;
+}
+
 .l-region--navigation {
     .active {
     background: none repeat scroll 0 0 #A1BEF4;
@@ -75,7 +87,7 @@ a:active,  a:hover{
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
     border-top-left-radius: 10px;
-    width: 80%;
+    width: 100%;
 }
 
 
@@ -91,7 +103,9 @@ a:active,  a:hover{
 
 .l-om-branding {
    background-color: #13245;
-   margin: 0 auto;
+    height: 20rem;
+    margin: 2rem auto;
+    top: 3rem;
 .site-logo {
     height: auto;
     width: 6rem;

@@ -1,9 +1,11 @@
     .l-principal{
     @include grid-span(12,1); 
     }
-    .l-branding{
+    .l-om-branding{
     @include grid-span(12,1);
-    margin: 0 auto;
+    height: 20rem;
+    margin: 2rem auto;
+    top: 2rem;
     }
 
 //  .l-region--header{
