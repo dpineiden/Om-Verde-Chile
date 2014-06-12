@@ -1,15 +1,18 @@
-   .l-header{    
+   .l-header{   
+
     .l-principal{
     @include grid-span(12,1); 
-    float: inherit;
+       float: inherit; 
     }
     .l-branding{
-    @include grid-span(6,1);
-    margin-top: 5px;
-    margin-right: 2px;    
+    @include grid-span(12,1);
+       float: inherit; 
+    margin: 0 auto;
+    width: 300px; 
     }
-    .l-region--header{
-   @include grid-span(6,7);    
-    margin-top: 5px;
-    margin-left: 2px;  
-    }}
+//  .l-region--header{
+// @include grid-span(6,7);    
+ // margin-top: 5px;
+  //margin-left: 2px;  
+//  }
+}
