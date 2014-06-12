@@ -5,7 +5,6 @@ template = home_verdechile-layout
 
 regions[principal]		= Barra Superior
 regions[branding]       = Marca
-regions[header]         = Encabezado
 regions[navigation]     = Barra de Navegación
 regions[highlighted]    = Destacado
 regions[help]           = Ayuda

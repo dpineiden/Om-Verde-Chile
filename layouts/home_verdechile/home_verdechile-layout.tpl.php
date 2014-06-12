@@ -3,7 +3,7 @@
 	  <div class="l-principal" role="principal">
 	      <?php print render($page['principal']); ?>
 	  </div>
-    <div class="l-branding" role="logo-marca">
+    <div class="l-om-branding" role="logo-marca">
       <?php if ($logo): ?>
         <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home" class="site-logo" role="logo-sitio"><img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" /></a>
       <?php endif; ?>
@@ -22,10 +22,8 @@
 
       <?php print render($page['branding']); ?>
     </div>
-  <div class="l-region--header" role="Encabezado">
-    <?php print render($page['header']); ?>
-</div>
-  </header>
+ 
+  </header> 
 
   <div class="l-main">
 

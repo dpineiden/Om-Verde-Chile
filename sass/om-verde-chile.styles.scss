@@ -86,11 +86,12 @@ a:active,  a:hover{
 
 .l-region.l-region--branding{
     height: 8rem;
-    width: 32rem;
+    text-align: center;
 }
 
-.l-branding {
+.l-om-branding {
    background-color: #13245;
+   margin: 0 auto;
 .site-logo {
     height: auto;
     width: 6rem;
@@ -105,9 +106,8 @@ a:active,  a:hover{
 	.bloque-sitio-nombre-slogan {
         font-family: Amaranth;
     	color: #000000;
-  		margin: 10px auto;
-    	width: 30rem;
-        position: absolute;
+        margin: 0 auto;
+        position: relative;
         vertical-align: middle;
      #logo-sitename{
         a{
@@ -115,8 +115,7 @@ a:active,  a:hover{
         color: black;  
         text-decoration: none;
         &:hover{
-            color: blue;
-        }
+            color: blue;}
         }
 
      }   
@@ -209,9 +208,7 @@ a:active,  a:hover{
     margin: 0;  
 .shs-hierarchy {
     margin-bottom: 0;
-    margin-top: 0;}
-
-  
+    margin-top: 0;}  
     
 }
     
