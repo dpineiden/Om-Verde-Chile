@@ -105,22 +105,20 @@ a:active,  a:hover{
    background-color: #13245;
 
         @include breakpoint($celular_small){
-         font-size: 6rem;        
+         height: 6rem;        
 }
         @include breakpoint($celular){
-         font-size: 9rem;        
+         height: 9rem;        
 }
         @include breakpoint($tablet){
-         font-size: 14rem;        
+         height: 14rem;        
 }
         @include breakpoint($desk_normal){
-         font-size: 25rem;        
+         height: 25rem;        
 }
         @include breakpoint($desk_wide){
-         font-size: 28rem;        
+         height: 28rem;        
 }
-
-    height: 20rem;
     margin: 2rem auto;
     top: 3rem;
 .site-logo {
