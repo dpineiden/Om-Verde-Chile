@@ -213,10 +213,40 @@ a:active,  a:hover{
     }
 }}
 //menus sobre tood
-
-.flexslider_views_slideshow_main.views_slideshow_main.flexslider_views_slideshow-processed {
+.slider-contenedor{
+.imagen-slider {
     z-index: -1;
+}  
+.slider-titulo{
+    background: none repeat scroll 0 0 rgba(1, 1, 1, 0.6);
+    bottom: 0rem;
+    height: 3rem;
+    margin: 0;
+    position: absolute;
+    width: 100%;
+
+        @include breakpoint($celular_small){
+         font-size: 0.3rem;        
 }
+        @include breakpoint($celular){
+         font-size: 0.6rem;        
+}
+        @include breakpoint($tablet){
+         font-size: 0.9rem;        
+}
+        @include breakpoint($desk_normal){
+         font-size: 1.2rem;        
+}
+        @include breakpoint($desk_wide){
+         font-size: 1.5rem;        
+}
+
+        a {
+    background: none repeat scroll 0 0 rgba(247, 236, 236, 0);
+    color: #FFFFFF;
+    text-decoration: none;
+} 
+}}
 
 //contenido
 
