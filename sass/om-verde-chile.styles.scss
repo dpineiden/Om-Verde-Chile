@@ -362,20 +362,35 @@ a:active,  a:hover{
 }
 
 .titulo-teaser {
-    height: 6rem;
-    background: url("../images/tit_teaser.svg") repeat-x scroll 0 0 / contain rgba(0, 0, 0, 0);
-    border-top-right-radius: 10px;
+    height: 5rem;
+     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
     font-family: Amaranth;
     font-size: 1.05rem;
-    color: #000000;
     a{
+    text-transform: uppercase;    
     text-decoration:none;
-    color: black;
+  color: #1B6F39;
 }}
 
 .fila-ultimos-articulos {
-    height: 30rem;
+
+    @include breakpoint($celular_small){
+         font-size: 43rem;        
+}
+        @include breakpoint($celular){
+         font-size: 33rem;        
+}
+        @include breakpoint($tablet){
+         font-size: 32rem;        
+}
+        @include breakpoint($desk_normal){
+         font-size: 35rem;        
+}
+        @include breakpoint($desk_wide){
+         font-size: 32rem;        
+}  
+
 }
 
 .field-content.imagen-front {
@@ -487,7 +502,7 @@ li{
         
         .titulo-teaser {
 		font-size: 1rem;
-
+        text-transform: uppercase;
 		}
 		
 		///css para clasificacion
@@ -603,9 +618,9 @@ li{
     
     
     		///css para clasificacion
-.fila-ultimos-articulos {
-    height: 30rem;
-}
+//.fila-ultimos-articulos {
+ //   height: 30rem;
+//}
 		
 .ultimos-articulos .view-content{
     float: left;
@@ -724,9 +739,9 @@ li{
     
     
     		///css para clasificacion
-.fila-ultimos-articulos {
-    height: 30rem;
-}
+//.fila-ultimos-articulos {
+ //   height: 30rem;
+//}
 		
 .ultimos-articulos .view-content .fila-ultimos-articulos {
     float: left;
