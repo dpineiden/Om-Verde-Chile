@@ -114,10 +114,10 @@ a:active,  a:hover{
          font-size: 14rem;        
 }
         @include breakpoint($desk_normal){
-         font-size: 17rem;        
+         font-size: 25rem;        
 }
         @include breakpoint($desk_wide){
-         font-size: 17rem;        
+         font-size: 28rem;        
 }
 
     height: 20rem;
@@ -235,7 +235,6 @@ a:active,  a:hover{
     z-index: -1;
 }  
 .slider-titulo{
-    background: none repeat scroll 0 0 rgba(1, 1, 1, 0.6);
     bottom: 0rem;
     height: auto;
     margin: 0;
@@ -244,23 +243,28 @@ a:active,  a:hover{
         @include breakpoint($celular_small){
         font-size: 0.8rem;        
         position: relative;
-        background: black;
+    background: none repeat scroll 0 0 rgba(1, 1, 1, 1);
 }
         @include breakpoint($celular){
          font-size: 1.0rem;
              position: absolute;        
+    background: none repeat scroll 0 0 rgba(1, 1, 1, 0.6);
 }
         @include breakpoint($tablet){
          font-size: 1.2rem;     
              position: absolute;   
+                 background: none repeat scroll 0 0 rgba(1, 1, 1, 0.6);
 }
         @include breakpoint($desk_normal){
          font-size: 1.5rem;     
              position: absolute;   
+    background: none repeat scroll 0 0 rgba(1, 1, 1, 0.6);
 }
+
         @include breakpoint($desk_wide){
          font-size: 1.5rem;     
-             position: absolute;   
+             position: absolute; 
+                 background: none repeat scroll 0 0 rgba(1, 1, 1, 0.6);  
 }
 
         a {
