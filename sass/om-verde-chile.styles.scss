@@ -114,10 +114,10 @@ a:active,  a:hover{
          height: 14rem;        
 }
         @include breakpoint($desk_normal){
-         height: 25rem;        
+         height: 17rem;        
 }
         @include breakpoint($desk_wide){
-         height: 28rem;        
+         height: 18rem;        
 }
     margin: 2rem auto;
     top: 3rem;
