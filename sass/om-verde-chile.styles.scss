@@ -103,6 +103,23 @@ a:active,  a:hover{
 
 .l-om-branding {
    background-color: #13245;
+
+        @include breakpoint($celular_small){
+         font-size: 6rem;        
+}
+        @include breakpoint($celular){
+         font-size: 9rem;        
+}
+        @include breakpoint($tablet){
+         font-size: 14rem;        
+}
+        @include breakpoint($desk_normal){
+         font-size: 17rem;        
+}
+        @include breakpoint($desk_wide){
+         font-size: 17rem;        
+}
+
     height: 20rem;
     margin: 2rem auto;
     top: 3rem;
@@ -222,23 +239,28 @@ a:active,  a:hover{
     bottom: 0rem;
     height: auto;
     margin: 0;
-    position: absolute;
     width: 100%;
 
         @include breakpoint($celular_small){
-         font-size: 0.3rem;        
+        font-size: 0.8rem;        
+        position: relative;
+        background: black;
 }
         @include breakpoint($celular){
-         font-size: 0.6rem;        
+         font-size: 1.0rem;
+             position: absolute;        
 }
         @include breakpoint($tablet){
-         font-size: 0.9rem;        
+         font-size: 1.2rem;     
+             position: absolute;   
 }
         @include breakpoint($desk_normal){
-         font-size: 1.2rem;        
+         font-size: 1.5rem;     
+             position: absolute;   
 }
         @include breakpoint($desk_wide){
-         font-size: 1.5rem;        
+         font-size: 1.5rem;     
+             position: absolute;   
 }
 
         a {
