@@ -273,8 +273,6 @@ a:active,  a:hover{
 }}
 
 //contenido
-
-
     .breadcrumb {
     display: inline-flex;
     li{
@@ -283,3 +281,98 @@ a:active,  a:hover{
     }
 }
 //teaser    
+
+
+
+
+//CSS Footer
+
+
+.l-footer {
+    display: inline-flex;
+    width:100%;
+    
+    .licencia{
+    width: 50%;
+    }
+    .contactar {
+    width: 25%;
+   }    
+    .hecho-drupal {
+    width: 25%;
+    }
+}
+
+.l-region.l-region--footer {
+    display: inherit;
+    text-align: center;
+      width: 100%;
+}
+
+
+//flexslider
+
+//añadir secciones de grilla
+
+
+//flexslider
+.field-content.titulo-slider {
+    color: #E72D2D;
+    font-family: sans-serif;
+    font-size: 20px;
+    padding: 0;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    top: 40px;
+    width: 50%;
+    a{
+    vertical-align: middle;}
+}
+
+.view-home-slider {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    z-index: -2;
+    .views-field.views-field-title {
+    height: 0;
+}
+}
+
+.field-slideshow {
+    margin: 0 auto;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.field-content.cuerpo-slider {
+    font-size: 0.7rem;
+}
+
+.leermas-slider {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    text-align: right;
+    height: 0;
+ a {
+    color: #6080D2;
+    position: relative;
+    text-align: left;
+    text-decoration: none;
+}}
+
+.titulo-slider > a {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    color: #000000;
+    text-decoration: none;
+}
+
+.flex-control-nav {
+    position: relative;
+    text-align: center;
+    width: 100%;
+    top: -0.5rem;
+}
