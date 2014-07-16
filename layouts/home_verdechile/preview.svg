@@ -14,7 +14,10 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.48.4 r9939"
-   sodipodi:docname="Documento nuevo 1">
+   sodipodi:docname="preview.svg"
+   inkscape:export-filename="/home/david/public_html/sites/default/themes/om_verde_chile/layouts/home_verdechile/preview.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
   <defs
      id="defs4" />
   <sodipodi:namedview
@@ -24,9 +27,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.4"
-     inkscape:cx="130.64798"
-     inkscape:cy="153.28593"
+     inkscape:zoom="1.979899"
+     inkscape:cx="112.08296"
+     inkscape:cy="184.19763"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -59,26 +62,19 @@
     <rect
        style="fill:#0080ff;fill-opacity:1;stroke:none"
        id="rect2985"
-       width="249.15048"
+       width="176.29333"
        height="11.455194"
-       x="233.72726"
+       x="306.58441"
        y="268.98297" />
     <rect
-       y="285.59302"
+       y="269.01514"
        x="233.15451"
-       height="43.529739"
-       width="98.514679"
+       height="11.208311"
+       width="72.443253"
        id="rect3755"
        style="fill:#0080ff;fill-opacity:1;stroke:none" />
     <rect
-       style="fill:#0080ff;fill-opacity:1;stroke:none"
-       id="rect3757"
-       width="144.90822"
-       height="43.529739"
-       x="338.5423"
-       y="285.59302" />
-    <rect
-       y="333.13208"
+       y="324.54578"
        x="233.72726"
        height="11.455194"
        width="249.15048"
@@ -90,11 +86,11 @@
        width="249.15048"
        height="41.425365"
        x="233.72726"
-       y="348.52216" />
+       y="281.85208" />
     <rect
-       y="394.69241"
+       y="337.11371"
        x="233.72726"
-       height="209.90633"
+       height="196.26926"
        width="153.56995"
        id="rect3765"
        style="fill:#0080ff;fill-opacity:1;stroke:none" />
@@ -102,9 +98,9 @@
        style="fill:#0080ff;fill-opacity:1;stroke:none"
        id="rect3767"
        width="92.009605"
-       height="209.90633"
+       height="196.26926"
        x="390.05814"
-       y="394.69241" />
+       y="337.11371" />
     <rect
        style="fill:#0080ff;fill-opacity:1;stroke:none"
        id="rect3769"
@@ -112,5 +108,26 @@
        height="11.455194"
        x="233.72726"
        y="607.72363" />
+    <rect
+       y="535.10358"
+       x="401.4639"
+       height="71.515419"
+       width="80.603821"
+       id="rect2990"
+       style="fill:#0080ff;fill-opacity:1;stroke:none" />
+    <rect
+       style="fill:#0080ff;fill-opacity:1;stroke:none"
+       id="rect2992"
+       width="79.593666"
+       height="71.515419"
+       x="234.49464"
+       y="535.10358" />
+    <rect
+       y="535.10358"
+       x="316.3298"
+       height="71.515419"
+       width="82.624123"
+       id="rect2994"
+       style="fill:#0080ff;fill-opacity:1;stroke:none" />
   </g>
 </svg>

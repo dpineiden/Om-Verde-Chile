@@ -22,6 +22,12 @@
 @import "layouts/**/*";
 @import "menus/**/*"; 
 
+html{
+    font-family: sans-serif;
+    margin: 0 auto;
+    width: 80%;
+}
+
 //
 //@include breakpoint($celular){
 //body{
@@ -83,10 +89,10 @@ margin: 0 auto;
 
 a:active,  a:hover{
 	background-color: #F9947F;
-    border-bottom-left-radius: 10px;
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
-    border-top-left-radius: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
     width: 100%;
 }
 
@@ -97,49 +103,21 @@ a:active,  a:hover{
 //se configura la zona de logo y marca
 
 .l-region.l-region--branding{
-    height: 8rem;
     text-align: center;
 }
 
 .l-om-branding {
    background-color: #13245;
 
-        @include breakpoint($celular_small){
-         height: 6rem;        
-}
-        @include breakpoint($celular){
-         height: 9rem;        
-}
-        @include breakpoint($tablet){
-         height: 14rem;        
-}
-        @include breakpoint($desk_normal){
-         height: 17rem;        
-}
-        @include breakpoint($desk_wide){
-         height: 18rem;        
-}
     margin: 2rem auto;
-    top: 3rem;
 .site-logo {
     height: auto;
     width: 6rem;
     max-width: 30%;
     margin:5px;
-
     img {    
-    @include breakpoint($celular_small){
-    height: 80px;}
-        @include breakpoint($celular){
-    height: 100px;}
-        @include breakpoint($tablet){
-    height: 150px;}
-        @include breakpoint($desk_normal){
-    height: auto;}
-        @include breakpoint($desk_wide){
-    height: auto;}
     max-width: 100%;
-}
+    }
 }
 
 //$celular_small:212px;

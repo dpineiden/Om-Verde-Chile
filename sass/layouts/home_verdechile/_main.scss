@@ -1,0 +1,77 @@
+.l-om-main{
+    @include grid-span(12,1); 
+}
+.l-om-slider{
+    @include grid-span(12,1); 
+}
+.l-om-nav{
+    @include grid-span(12,1);    
+}
+.l-om-region--breadcrumb{
+    @include grid-span(12,1);  
+}
+.l-om-region--destacado{
+    @include grid-span(12,1);  
+}
+.l-om-central{
+    @include grid-span(12,1);  
+    }
+.l-om-content{
+	@include grid-span(9,1); 
+}
+.l-om-sidebar-first{
+    @include grid-span(3,10); 
+}
+//pre footer
+
+.l--region-prefooter{
+ @include grid-span(12,1);
+}
+.l-om-prefooter1{
+    @include grid-span(4,1); 
+}
+
+.l-om-prefooter2{
+    @include grid-span(4,5); 
+}
+
+.l-om-prefooter3{
+    @include grid-span(4,9); 
+}
+
+//.l-cv-principal{
+ //   @include grid-span(8,5); 
+  //  }
+/*.l-cv-slider{
+    @include grid-span(8,5);  
+}
+.l-cv-content{
+    @include grid-span(8,1);}
+.l-cv-sidebar{
+    @include grid-span(4,9);
+}
+.l-region--destacado{
+    @include grid-span(8,5);
+}
+.l-region--breadcrumb{
+    @include grid-span(8,5);
+}
+*/
+//     @include breakpoint($celular_small){
+// background-color: brown;
+// }
+// @include breakpoint($celular){
+// background-color: $verde;
+// }    
+// @include breakpoint($tablet){
+// background-color: blue;
+// }
+// @include breakpoint($desk_normal){
+// background-color: $rojo;
+// }
+// @include breakpoint($desk_wide){
+// background-color: black;
+// color: white;
+// }
+
+
