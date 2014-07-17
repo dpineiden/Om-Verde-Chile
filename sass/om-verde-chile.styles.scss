@@ -354,3 +354,27 @@ a:active,  a:hover{
     width: 100%;
     top: -0.5rem;
 }
+
+#bienvenido{
+    display: none;
+}
+.grupo-clase-contenido {
+    display: inline-flex;
+    padding: 5px;
+}
+.pleca-clase-contenido {
+    font-size: 3rem;
+    margin: 1%;
+    padding: 1%;
+    vertical-align: middle;
+}
+.tema-contenido {
+    display: inline-flex;
+    padding: 10px;
+    vertical-align: middle;
+    ul li {
+    list-style: none outside none;
+    position: relative;
+    width: 200px;
+}
+}
