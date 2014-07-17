@@ -6,22 +6,6 @@ ul li {
 img, media {
   max-width: 100%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/default\/themes\/om_verde_chile\/sass\/layouts\/home_verdechile\/_branding\.scss}line{font-family:\000031}}
-.l-om-branding {
-  width: 23.40426%;
-  float: left;
-  margin-right: -100%;
-  margin-left: 0%;
-  clear: none; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/default\/themes\/om_verde_chile\/sass\/layouts\/home_verdechile\/_branding\.scss}line{font-family:\000034}}
-.l-om-principal {
-  width: 74.46809%;
-  float: right;
-  margin-left: 0;
-  margin-right: 0;
-  clear: none; }
-
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/default\/themes\/om_verde_chile\/sass\/layouts\/home_verdechile\/_footer\.scss}line{font-family:\000031}}
 .l-om-footer {
   width: 100%;
@@ -33,6 +17,22 @@ img, media {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/default\/themes\/om_verde_chile\/sass\/layouts\/home_verdechile\/_header\.scss}line{font-family:\000031}}
 .l-om-header {
   width: 100%;
+  float: right;
+  margin-left: 0;
+  margin-right: 0;
+  clear: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/default\/themes\/om_verde_chile\/sass\/layouts\/home_verdechile\/_header\.scss}line{font-family:\000033}}
+.l-om-branding {
+  width: 23.40426%;
+  float: left;
+  margin-right: -100%;
+  margin-left: 0%;
+  clear: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/default\/themes\/om_verde_chile\/sass\/layouts\/home_verdechile\/_header\.scss}line{font-family:\000035}}
+.l-om-principal {
+  width: 74.46809%;
   float: right;
   margin-left: 0;
   margin-right: 0;
@@ -213,7 +213,7 @@ html {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/default\/themes\/om_verde_chile\/sass\/om-verde-chile\.styles\.scss}line{font-family:\00003109}}
 .l-om-branding {
   background-color: #13245;
-  margin: 2rem auto; }
+  margin: 0rem auto; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/default\/themes\/om_verde_chile\/sass\/om-verde-chile\.styles\.scss}line{font-family:\00003113}}
   .l-om-branding .site-logo {
     height: auto;
@@ -227,7 +227,7 @@ html {
   .l-om-branding .bloque-sitio-nombre-slogan {
     font-family: Amaranth;
     color: #000000;
-    margin: 1rem auto;
+    margin: 0rem auto;
     position: relative;
     vertical-align: middle; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/default\/themes\/om_verde_chile\/sass\/om-verde-chile\.styles\.scss}line{font-family:\00003135}}

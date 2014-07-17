@@ -22,8 +22,9 @@ scripts[] = js/om-verde-chile.behaviors.js
 ; Regions
 ; ========================================
 
-regions[principal]		= Barra Superior
+
 regions[branding]       = Marca
+regions[principal]		= Barra Superior
 regions[header]         = Encabezado
 regions[navigation]     = Barra de Navegación
 regions[highlighted]    = Destacados

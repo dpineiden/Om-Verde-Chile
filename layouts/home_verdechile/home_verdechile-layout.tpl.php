@@ -1,5 +1,6 @@
 <div<?php print $attributes; ?>>
-  <header class="l-om-header" role="banner">
+  <header  role="banner">
+    <div class="l-om-header">
     <div class="l-om-branding" role="logo-marca">
       <?php if ($logo): ?>
         <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home" class="site-logo" role="logo-sitio"><img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" /></a>
@@ -15,11 +16,11 @@
           <h2 class="site-slogan"><?php print $site_slogan; ?></h2>
         <?php endif; ?>
       <?php endif; ?>
-      <?php print render($page['branding']); ?>
-    </div>
+      <?php print render($page['branding']); ?></div>
         <div class="l-om-principal" role="principal">
         <?php print render($page['principal']); ?>
         </div>
+      </div>        
   </header> 
   
   <div class="l-om-main">
