@@ -4,12 +4,13 @@ preview = preview.png
 template = home_verdechile-layout
 
 regions[branding]       = Marca
-regions[principal]		= Barra Superior
-regions[slider]			= Slider
+regions[principal]	= Barra Superior
+regions[slider]		= Slider
 regions[navigation]     = Barra de Navegación
 regions[highlighted]    = Destacados
 regions[help]           = Ayuda
 regions[content]        = Contenido
+regions[sidebar_content]= Lateral de Contenido
 regions[sidebar_first]  = Barra Lateral
 regions[pre_footer_1]   = Pre Footer-1
 regions[pre_footer_2]   = Pre Footer-2

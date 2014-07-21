@@ -21,6 +21,7 @@
 @import "components/**/*";
 @import "layouts/**/*";
 @import "menus/**/*"; 
+@import "hover/**/*"; 
 
 html{
     font-family: sans-serif;
@@ -358,23 +359,51 @@ a:active,  a:hover{
 #bienvenido{
     display: none;
 }
+
+.teaser-cl{
+padding: 10px;
+width: 30%;
+.titulo-teaser{
+	text-transform: uppercase;
+	text-align: justify;
+	a{
+		text-decoration: none;
+	}
+}	
 .grupo-clase-contenido {
-    display: inline-flex;
-    padding: 5px;
+display: table;
+padding: 5px;
+.clase-contenido {
+display: table-cell;
+vertical-align: middle;
+position: relative;
 }
 .pleca-clase-contenido {
-    font-size: 3rem;
-    margin: 1%;
-    padding: 1%;
-    vertical-align: middle;
+font-size: 3rem;
+margin: 1%;
+padding: 1%;
+vertical-align: middle;
+display: table-cell;
+position: relative;
+left: 5%;
 }
 .tema-contenido {
-    display: inline-flex;
-    padding: 10px;
-    vertical-align: middle;
+display: inline-flex;
+padding: 10px;
+vertical-align: middle;
+display: table-cell;
     ul li {
     list-style: none outside none;
     position: relative;
     width: 200px;
 }
+.shs-hierarchy {
+position: relative;
+left: -35Px;
 }
+}
+}
+.summary-teaser {
+text-align: justify;
+}
+}//cierre teaser

@@ -51,6 +51,9 @@
       <?php endif; ?>
       <?php print render($page['content']); ?>
       <?php print $feed_icons; ?></div>
+    <div class="l-om-sidebar-content" role="Barra Lateral Contenido">
+    <?php print render($page['sidebar_content']); ?></div></div>
+    </div>  
     <div class="l-om-sidebar-first" role="Barra Lateral">
     <?php print render($page['sidebar_first']); ?></div></div>
     </div>
