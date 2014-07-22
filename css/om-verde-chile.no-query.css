@@ -3143,23 +3143,21 @@ html {
       padding: 1%;
       vertical-align: middle;
       display: table-cell;
-      position: relative;
-      left: 5%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/default\/themes\/om_verde_chile\/sass\/om-verde-chile\.styles\.scss}line{font-family:\00003390}}
+      position: relative; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/default\/themes\/om_verde_chile\/sass\/om-verde-chile\.styles\.scss}line{font-family:\00003389}}
     .teaser-cl .grupo-clase-contenido .tema-contenido {
       display: inline-flex;
-      padding: 10px;
       vertical-align: middle;
       display: table-cell; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/default\/themes\/om_verde_chile\/sass\/om-verde-chile\.styles\.scss}line{font-family:\00003395}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/default\/themes\/om_verde_chile\/sass\/om-verde-chile\.styles\.scss}line{font-family:\00003393}}
       .teaser-cl .grupo-clase-contenido .tema-contenido ul li {
         list-style: none outside none;
         position: relative;
         width: 200px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/default\/themes\/om_verde_chile\/sass\/om-verde-chile\.styles\.scss}line{font-family:\00003400}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/default\/themes\/om_verde_chile\/sass\/om-verde-chile\.styles\.scss}line{font-family:\00003398}}
       .teaser-cl .grupo-clase-contenido .tema-contenido .shs-hierarchy {
         position: relative;
         left: -35Px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/default\/themes\/om_verde_chile\/sass\/om-verde-chile\.styles\.scss}line{font-family:\00003406}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/default\/themes\/om_verde_chile\/sass\/om-verde-chile\.styles\.scss}line{font-family:\00003404}}
   .teaser-cl .summary-teaser {
     text-align: justify; }
