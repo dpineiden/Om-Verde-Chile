@@ -356,6 +356,11 @@ a:active,  a:hover{
     top: -0.5rem;
 }
 
+.l-om-content {
+clear: none;
+padding: 2px;
+}
+
 #bienvenido{
     display: none;
 }
@@ -363,16 +368,24 @@ a:active,  a:hover{
 .teaser-cl{
 padding: 10px;
 width: 30%;
+float: left;
+height: 520px;
+margin-top: 15px;
+margin-bottom: 15px;
+
 .titulo-teaser{
-	text-transform: uppercase;
+	text-transform: none;
 	text-align: justify;
+    height: 80px;
 	a{
 		text-decoration: none;
 	}
 }	
 .grupo-clase-contenido {
 display: table;
-padding: 5px;
+padding: 0px;
+height: 80px;
+width: 100%;
 .clase-contenido {
 display: table-cell;
 vertical-align: middle;
@@ -400,6 +413,11 @@ position: relative;
 left: -35Px;
 }
 }
+}
+.imagen-teaser{
+    img{
+        height: auto;
+    }
 }
 .summary-teaser {
 text-align: justify;
