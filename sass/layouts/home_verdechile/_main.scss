@@ -13,41 +13,30 @@
 .l-om-region--destacado{
     @include grid-span(12,1);  
 }
-//.l-om-central{
-//    @include grid-span(12,1);  
+
+//region central que tiene content y barras laterales
+//.l-om--region-central{
+//   @include grid-span(12,1);  
 //}
 .l-om-content{
 	@include grid-span(8,1); 
 }
-.l-om-sidebar{
-    @include grid-span(4,9); 
+//barra lateral
+.l-om--region-sidebar{
+  @include grid-span(4,9); 
 }
 .l-om-sidebar-media{
-    @include grid-span(3,10); 
+    @include grid-span(12,1); 
+}
+.l-om-sub-lateral{
+      @include grid-span(12,1);   
 }
 .l-om-sidebar-left{
-    @include grid-span(3,10); 
+    @include grid-span(6,1); 
 }
 .l-om-sidebar-right{
-    @include grid-span(3,10); 
+    @include grid-span(6,7); 
 }
-//pre footer
-
-.l--region-prefooter{
- @include grid-span(12,1);
-}
-.l-om-prefooter1{
-    @include grid-span(4,1); 
-}
-
-.l-om-prefooter2{
-    @include grid-span(4,5); 
-}
-
-.l-om-prefooter3{
-    @include grid-span(4,9); 
-}
-
 //.l-cv-principal{
  //   @include grid-span(8,5); 
   //  }

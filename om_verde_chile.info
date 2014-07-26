@@ -1,5 +1,5 @@
 name = Om Verde Chile
-description = Theme bajo omega 4. para sitio libres.
+description = Theme bajo Omega 4. para sitios libres.
 base theme = omega
 screenshot = screenshot.png
 engine = phptemplate
@@ -32,8 +32,8 @@ regions[help]           = Ayuda
 regions[slider]			= Slider
 regions[content]        = Contenido
 regions[sidebar_media]	= Lateral para Media
-regions[sidebar_left]	= Lateral Izquierdo
-regions[sidebar_right]  = Lateral Derecho
+regions[sidebar_left]	= Lateral Izquierda
+regions[sidebar_right]  = Lateral Derecha
 regions[pre_footer_1]   = Pre Footer-1
 regions[pre_footer_2]   = Pre Footer-2
 regions[pre_footer_3]   = Pre Footer-3
