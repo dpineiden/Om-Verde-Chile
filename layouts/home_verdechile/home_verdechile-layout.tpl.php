@@ -24,19 +24,26 @@
   </header> 
   
   <div class="l-om-main">
-  <div class="l-om-slider" role="slider">
+
+    <div class="l-om-slider" role="slider">
      <?php print render($page['slider']); ?>
-  </div>	  
-	<div class="l-om-nav" role="navegacion">
+    </div>	  
+	
+    <div class="l-om-nav" role="navegacion">
 		<?php print render($page['navigation']); ?>
-	</div>		
-	<div class="l-om-region--destacado" role="destacado">
-      <?php print render($page['highlighted']); ?></div>
-  <div class="l-om-region--breadcrumb" role="breadcrumb">
+	  </div>		
+	
+    <div class="l-om-region--destacado" role="destacado">
+      <?php print render($page['highlighted']); ?>
+    </div>
+    
+    <div class="l-om-region--breadcrumb" role="breadcrumb">
       <?php print $breadcrumb; ?>  
-  </div>
+    </div>
+  
   <div class="l-om-central">
-  <div class="l-om-content" role="main">        
+
+    <div class="l-om-content" role="main">        
       <a id="main-content"></a>
       <?php print render($title_prefix); ?>
       <?php if ($title): ?>
@@ -50,13 +57,23 @@
         <ul class="action-links"><?php print render($action_links); ?></ul>
       <?php endif; ?>
       <?php print render($page['content']); ?>
-      <?php print $feed_icons; ?></div>
-    <div class="l-om-sidebar-content" role="Barra Lateral Contenido">
-    <?php print render($page['sidebar_content']); ?></div></div>
-    </div>  
-    <div class="l-om-sidebar-first" role="Barra Lateral">
-    <?php print render($page['sidebar_first']); ?></div></div>
+      <?php print $feed_icons; ?>
     </div>
+
+
+    <div class="l-om-sidebar-media" role="Lateral para Media">
+    <?php print render($page['sidebar_media']); ?></div>
+
+    <div class="l-om-sidebar-left" role="Lateral Izquierda">
+    <?php print render($page['sidebar_left']); ?></div>
+
+    <div class="l-om-sidebar-right" role="Lateral Derecha">
+    <?php print render($page['sidebar_right']); ?></div>
+
+    </div>
+
+  </div>
+
   <footer role="contentinfo">
     <div class="l--region-prefooter">
    <div class="l-om-prefooter1" role="Pre Footer-1">

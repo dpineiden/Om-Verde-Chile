@@ -39,7 +39,7 @@
      fit-margin-bottom="0"
      inkscape:window-width="1278"
      inkscape:window-height="976"
-     inkscape:window-x="800"
+     inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1" />
   <metadata
@@ -91,15 +91,15 @@
        y="337.11371"
        x="233.72726"
        height="196.26926"
-       width="111.14354"
+       width="139.93288"
        id="rect3765"
        style="fill:#0080ff;fill-opacity:1;stroke:none" />
     <rect
        style="fill:#0080ff;fill-opacity:1;stroke:none"
        id="rect3767"
-       width="92.009605"
-       height="196.26926"
-       x="390.05814"
+       width="105.64667"
+       height="67.979881"
+       x="376.42108"
        y="337.11371" />
     <rect
        style="fill:#0080ff;fill-opacity:1;stroke:none"
@@ -130,11 +130,18 @@
        id="rect2994"
        style="fill:#0080ff;fill-opacity:1;stroke:none" />
     <rect
-       style="fill:#0080ff;fill-opacity:1;stroke:none"
+       y="406.30917"
+       x="375.91599"
+       height="126.56873"
+       width="52.512127"
        id="rect2993"
-       width="42.453167"
-       height="196.26926"
-       x="346.35928"
-       y="337.11371" />
+       style="fill:#0080ff;fill-opacity:1;stroke:none" />
+    <rect
+       style="fill:#0080ff;fill-opacity:1;stroke:none"
+       id="rect2995"
+       width="52.512127"
+       height="126.56873"
+       x="429.51501"
+       y="406.30917" />
   </g>
 </svg>

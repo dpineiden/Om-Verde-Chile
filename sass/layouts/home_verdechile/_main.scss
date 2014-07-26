@@ -13,16 +13,22 @@
 .l-om-region--destacado{
     @include grid-span(12,1);  
 }
-.l-om-central{
-    @include grid-span(12,1);  
-    }
+//.l-om-central{
+//    @include grid-span(12,1);  
+//}
 .l-om-content{
 	@include grid-span(8,1); 
 }
-.l-om-sidebar-content{
-    @include grid-span(1,9); 
+.l-om-sidebar{
+    @include grid-span(4,9); 
 }
-.l-om-sidebar-first{
+.l-om-sidebar-media{
+    @include grid-span(3,10); 
+}
+.l-om-sidebar-left{
+    @include grid-span(3,10); 
+}
+.l-om-sidebar-right{
     @include grid-span(3,10); 
 }
 //pre footer
