@@ -83,4 +83,4 @@
     <div class="l-om-footer">
     <?php print render($page['footer']); ?></div>
   </footer>
-</div>
+
