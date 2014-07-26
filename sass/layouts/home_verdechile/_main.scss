@@ -40,39 +40,3 @@
 .l-om-sidebar-right{
     @include grid-span(6,7); 
 }
-//.l-cv-principal{
- //   @include grid-span(8,5); 
-  //  }
-/*.l-cv-slider{
-    @include grid-span(8,5);  
-}
-.l-cv-content{
-    @include grid-span(8,1);}
-.l-cv-sidebar{
-    @include grid-span(4,9);
-}
-.l-region--destacado{
-    @include grid-span(8,5);
-}
-.l-region--breadcrumb{
-    @include grid-span(8,5);
-}
-*/
-//     @include breakpoint($celular_small){
-// background-color: brown;
-// }
-// @include breakpoint($celular){
-// background-color: $verde;
-// }    
-// @include breakpoint($tablet){
-// background-color: blue;
-// }
-// @include breakpoint($desk_normal){
-// background-color: $rojo;
-// }
-// @include breakpoint($desk_wide){
-// background-color: black;
-// color: white;
-// }
-
-

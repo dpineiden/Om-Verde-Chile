@@ -72,7 +72,7 @@
 
 
   <div  class="l-om--region-footer" role="Info Footer">
-    <div class="l--region-prefooter">
+    <div class="l-om-region-prefooter">
     <div class="l-om-prefooter1" role="Pre Footer-1">
     <?php print render($page['pre_footer_1']); ?></div>
       <div class="l-om-prefooter2" role="Pre Footer-2">

@@ -1,11 +1,11 @@
 //footer
 
 .l-om--region-footer{
-	width: 95%;
-	margin: 0 auto;
-	 @include grid-span(12,1);
+margin: 0 auto;
+width: 95%;
+@include grid-span(12,1);
 }
-.l--region-prefooter{
+.l-om-region-prefooter{
  @include grid-span(12,1);
 }
 .l-om-prefooter1{
