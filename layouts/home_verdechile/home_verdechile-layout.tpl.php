@@ -38,7 +38,7 @@
     <div class="l-om-region--breadcrumb" role="breadcrumb">
       <?php print $breadcrumb; ?>  
     </div>
-
+<div class="l-om--region-content" role"region de contenidos">
   <div class="l-om-content" role="main">        
       <a id="main-content"></a>
       <?php print render($title_prefix); ?>
@@ -68,10 +68,10 @@
     </div>
 
     </div>
-  </body>
+</div>
 
 
-  <footer role="contentinfo">
+  <div  class="l-om--region-footer" role="Info Footer">
     <div class="l--region-prefooter">
     <div class="l-om-prefooter1" role="Pre Footer-1">
     <?php print render($page['pre_footer_1']); ?></div>
@@ -82,5 +82,6 @@
     </div>
     <div class="l-om-footer">
     <?php print render($page['footer']); ?></div>
-  </footer>
+  </div>
 
+  </body>

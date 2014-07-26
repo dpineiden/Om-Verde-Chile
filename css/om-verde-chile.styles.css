@@ -6,12 +6,17 @@ ul li {
 img, media {
   max-width: 100%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/default\/themes\/om_verde_chile\/sass\/layouts\/home_verdechile\/_footer\.scss}line{font-family:\000032}}
-footer {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/default\/themes\/om_verde_chile\/sass\/layouts\/home_verdechile\/_footer\.scss}line{font-family:\000033}}
+.l-om--region-footer {
   width: 95%;
-  margin: 0 auto; }
+  margin: 0 auto;
+  width: 100%;
+  float: right;
+  margin-left: 0;
+  margin-right: 0;
+  clear: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/default\/themes\/om_verde_chile\/sass\/layouts\/home_verdechile\/_footer\.scss}line{font-family:\000036}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/default\/themes\/om_verde_chile\/sass\/layouts\/home_verdechile\/_footer\.scss}line{font-family:\000038}}
 .l--region-prefooter {
   width: 100%;
   float: right;
@@ -19,7 +24,7 @@ footer {
   margin-right: 0;
   clear: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/default\/themes\/om_verde_chile\/sass\/layouts\/home_verdechile\/_footer\.scss}line{font-family:\000039}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/default\/themes\/om_verde_chile\/sass\/layouts\/home_verdechile\/_footer\.scss}line{font-family:\0000311}}
 .l-om-prefooter1 {
   width: 31.91489%;
   float: left;
@@ -27,7 +32,7 @@ footer {
   margin-left: 0%;
   clear: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/default\/themes\/om_verde_chile\/sass\/layouts\/home_verdechile\/_footer\.scss}line{font-family:\0000313}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/default\/themes\/om_verde_chile\/sass\/layouts\/home_verdechile\/_footer\.scss}line{font-family:\0000315}}
 .l-om-prefooter2 {
   width: 31.91489%;
   float: left;
@@ -35,7 +40,7 @@ footer {
   margin-left: 34.04255%;
   clear: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/default\/themes\/om_verde_chile\/sass\/layouts\/home_verdechile\/_footer\.scss}line{font-family:\0000317}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/default\/themes\/om_verde_chile\/sass\/layouts\/home_verdechile\/_footer\.scss}line{font-family:\0000319}}
 .l-om-prefooter3 {
   width: 31.91489%;
   float: right;
@@ -43,7 +48,7 @@ footer {
   margin-right: 0;
   clear: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/default\/themes\/om_verde_chile\/sass\/layouts\/home_verdechile\/_footer\.scss}line{font-family:\0000321}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/default\/themes\/om_verde_chile\/sass\/layouts\/home_verdechile\/_footer\.scss}line{font-family:\0000323}}
 .l-om-footer {
   width: 100%;
   float: right;
@@ -70,14 +75,6 @@ footer {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/default\/themes\/om_verde_chile\/sass\/layouts\/home_verdechile\/_header\.scss}line{font-family:\000035}}
 .l-om-principal {
   width: 74.46809%;
-  float: right;
-  margin-left: 0;
-  margin-right: 0;
-  clear: none; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/default\/themes\/om_verde_chile\/sass\/layouts\/home_verdechile\/_main\.scss}line{font-family:\000031}}
-.l-om-main {
-  width: 100%;
   float: right;
   margin-left: 0;
   margin-right: 0;
@@ -116,6 +113,14 @@ footer {
   clear: none; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/default\/themes\/om_verde_chile\/sass\/layouts\/home_verdechile\/_main\.scss}line{font-family:\0000321}}
+.l-om--region-content {
+  width: 100%;
+  float: right;
+  margin-left: 0;
+  margin-right: 0;
+  clear: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/default\/themes\/om_verde_chile\/sass\/layouts\/home_verdechile\/_main\.scss}line{font-family:\0000324}}
 .l-om-content {
   width: 65.95745%;
   float: left;
@@ -123,7 +128,7 @@ footer {
   margin-left: 0%;
   clear: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/default\/themes\/om_verde_chile\/sass\/layouts\/home_verdechile\/_main\.scss}line{font-family:\0000325}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/default\/themes\/om_verde_chile\/sass\/layouts\/home_verdechile\/_main\.scss}line{font-family:\0000328}}
 .l-om--region-sidebar {
   width: 31.91489%;
   float: right;
@@ -131,7 +136,7 @@ footer {
   margin-right: 0;
   clear: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/default\/themes\/om_verde_chile\/sass\/layouts\/home_verdechile\/_main\.scss}line{font-family:\0000328}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/default\/themes\/om_verde_chile\/sass\/layouts\/home_verdechile\/_main\.scss}line{font-family:\0000331}}
 .l-om-sidebar-media {
   width: 100%;
   float: right;
@@ -139,7 +144,7 @@ footer {
   margin-right: 0;
   clear: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/default\/themes\/om_verde_chile\/sass\/layouts\/home_verdechile\/_main\.scss}line{font-family:\0000331}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/default\/themes\/om_verde_chile\/sass\/layouts\/home_verdechile\/_main\.scss}line{font-family:\0000334}}
 .l-om-sub-lateral {
   width: 100%;
   float: right;
@@ -147,7 +152,7 @@ footer {
   margin-right: 0;
   clear: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/default\/themes\/om_verde_chile\/sass\/layouts\/home_verdechile\/_main\.scss}line{font-family:\0000334}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/default\/themes\/om_verde_chile\/sass\/layouts\/home_verdechile\/_main\.scss}line{font-family:\0000337}}
 .l-om-sidebar-left {
   width: 48.93617%;
   float: left;
@@ -155,7 +160,7 @@ footer {
   margin-left: 0%;
   clear: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/default\/themes\/om_verde_chile\/sass\/layouts\/home_verdechile\/_main\.scss}line{font-family:\0000337}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/default\/themes\/om_verde_chile\/sass\/layouts\/home_verdechile\/_main\.scss}line{font-family:\0000340}}
 .l-om-sidebar-right {
   width: 48.93617%;
   float: right;

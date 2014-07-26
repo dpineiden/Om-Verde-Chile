@@ -1,6 +1,6 @@
-.l-om-main{
-    @include grid-span(12,1); 
-}
+//.l-om-main{
+ //   @include grid-span(12,1); 
+//}
 .l-om-slider{
     @include grid-span(12,1); 
 }
@@ -18,6 +18,9 @@
 //.l-om--region-central{
 //   @include grid-span(12,1);  
 //}
+.l-om--region-content{
+     @include grid-span(12,1); 
+}
 .l-om-content{
 	@include grid-span(8,1); 
 }
