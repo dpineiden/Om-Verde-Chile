@@ -453,24 +453,35 @@ height: 36rem;
    @include breakpoint($celular_small){
             font-size: 1.2rem; }
         @include breakpoint($celular){
-             font-size: 1.4rem;}
+             font-size: 2rem;}
         @include breakpoint($tablet){
-         font-size: 1.6rem;}
+         font-size: 1rem;}
 
         @include breakpoint($desk_normal){
-         font-size: 1.8rem; }
+         font-size: 0.8rem; }
         @include breakpoint($desk_wide){
-         font-size: 2.0rem;}
+         font-size: 1.2rem;}
 //    position: relative;
     vertical-align: middle;
 }
 .pleca-clase-contenido {
     display: table-cell;
-    font-size: 4rem;
     margin: 1%;
     padding: 1%;
     position: relative;
     vertical-align: middle;
+
+       @include breakpoint($celular_small){
+            font-size: 1.2rem; }
+        @include breakpoint($celular){
+             font-size: 4rem;}
+        @include breakpoint($tablet){
+         font-size: 3rem;}
+
+        @include breakpoint($desk_normal){
+         font-size: 3rem; }
+        @include breakpoint($desk_wide){
+         font-size: 3rem;}
 }
 .tema-contenido {
     display: table-cell;
@@ -482,12 +493,12 @@ height: 36rem;
         @include breakpoint($celular){
              font-size: 1rem;}
         @include breakpoint($tablet){
-         font-size: 1.2rem;}
+         font-size: 0.6rem;}
 
         @include breakpoint($desk_normal){
-         font-size: 1.4rem; }
+         font-size: 0.6rem; }
         @include breakpoint($desk_wide){
-         font-size: 1.6rem;}
+         font-size: 1rem;}
     list-style: none outside none;
     position: relative;
     width: 100%;
@@ -496,7 +507,6 @@ height: 36rem;
 }
 .shs-hierarchy {
 position: relative;
-left: -35Px;
 }
 }
 }
