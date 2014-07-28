@@ -22,11 +22,41 @@
      @include grid-span(12,1); 
 }
 .l-om-content{
-	@include grid-span(8,1); 
+	//@include grid-span(8,1); 
+     @include breakpoint($celular_small){
+    @include grid-span(12,1);
+}
+        @include breakpoint($celular){
+    @include grid-span(12,1);
+}
+        @include breakpoint($tablet){
+    @include grid-span(8,1); 
+}
+        @include breakpoint($desk_normal){
+    @include grid-span(8,1); 
+}
+        @include breakpoint($desk_wide){
+    @include grid-span(8,1); 
+}
 }
 //barra lateral
 .l-om--region-sidebar{
+ // @include grid-span(4,9); 
+      @include breakpoint($celular_small){
+    @include grid-span(12,1);
+}
+        @include breakpoint($celular){
+    @include grid-span(12,1);
+}
+        @include breakpoint($tablet){
   @include grid-span(4,9); 
+}
+        @include breakpoint($desk_normal){
+  @include grid-span(4,9); 
+}
+        @include breakpoint($desk_wide){
+  @include grid-span(4,9);  
+}
 }
 .l-om-sidebar-media{
     @include grid-span(12,1); 
