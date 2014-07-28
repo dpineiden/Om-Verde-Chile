@@ -6,6 +6,9 @@ width: 95%;
 @include grid-span(12,1);
 }
 .l-om-region-prefooter{
+    position: relative;
+    top: 6rem;
+    width: 95%;	
  @include grid-span(12,1);
 }
 .l-om-prefooter1{
@@ -20,4 +23,7 @@ width: 95%;
     @include grid-span(4,9); 
 }
 
-.l-om-footer{ @include grid-span(12,1); }  
+.l-om-footer{ @include grid-span(12,1); 
+    position: relative;
+    top: 6rem;
+    width: 95%;}  
