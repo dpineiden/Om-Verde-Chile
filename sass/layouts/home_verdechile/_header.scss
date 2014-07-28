@@ -1,9 +1,41 @@
 .l-om-header{
     @include grid-span(12,1);}
 .l-om-branding{
-    @include grid-span(3,1);}
+    @include breakpoint($celular_small){
+    @include grid-span(12,1);
+}
+        @include breakpoint($celular){
+    @include grid-span(12,1);
+}
+        @include breakpoint($tablet){
+    @include grid-span(4,1);
+}
+        @include breakpoint($desk_normal){
+    @include grid-span(3,1);
+}
+        @include breakpoint($desk_wide){
+    @include grid-span(3,1);
+}
+
+}
 .l-om-principal{
-    @include grid-span(9,4);}
+
+    @include breakpoint($celular_small){
+    @include grid-span(12,1);
+}
+        @include breakpoint($celular){
+    @include grid-span(12,1);
+}
+        @include breakpoint($tablet){
+    @include grid-span(8,5);
+}
+        @include breakpoint($desk_normal){
+    @include grid-span(9,4);
+}
+        @include breakpoint($desk_wide){
+    @include grid-span(9,4);
+}
+}
 //  .l-region--header{
 // @include grid-span(6,7);    
  // margin-top: 5px;

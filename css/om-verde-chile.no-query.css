@@ -64,22 +64,6 @@ img, media {
   margin-right: 0;
   clear: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/default\/themes\/om_verde_chile\/sass\/layouts\/home_verdechile\/_header\.scss}line{font-family:\000033}}
-.l-om-branding {
-  width: 23.40426%;
-  float: left;
-  margin-right: -100%;
-  margin-left: 0%;
-  clear: none; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/default\/themes\/om_verde_chile\/sass\/layouts\/home_verdechile\/_header\.scss}line{font-family:\000035}}
-.l-om-principal {
-  width: 74.46809%;
-  float: right;
-  margin-left: 0;
-  margin-right: 0;
-  clear: none; }
-
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/default\/themes\/om_verde_chile\/sass\/layouts\/home_verdechile\/_main\.scss}line{font-family:\000034}}
 .l-om-slider {
   width: 100%;
