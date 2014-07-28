@@ -3,6 +3,7 @@
 .l-om--region-footer{
 margin: 0 auto;
 width: 95%;
+position: relative;
 @include grid-span(12,1);
 }
 .l-om-region-prefooter{
