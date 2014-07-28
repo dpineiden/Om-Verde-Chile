@@ -209,19 +209,19 @@ a:active,  a:hover{
 //menus sobre tood
 .l-om-slider{
         @include breakpoint($celular_small){
-    height: 100px;
+    height: 10rem;
 }
         @include breakpoint($celular){
-    height: 110px;
+    height: 8rem;
 }
         @include breakpoint($tablet){
-   height: 120px;
+   height: 10rem;
 }
         @include breakpoint($desk_normal){
-    height: 160px;
+    height: 16rem;
 }
         @include breakpoint($desk_wide){
-    height: 220px; 
+    height: 18rem; 
 }
    
 
@@ -382,53 +382,53 @@ margin-bottom: 15px;
     @include breakpoint($celular_small){
 width: 100%;   
 padding: 0;  
-height: 28rem; 
+height: 30rem; 
 }
         @include breakpoint($celular){
 width: 100%; 
 padding: 5px;   
-height: 26rem;   
+height: 30rem;   
 }
         @include breakpoint($tablet){
 width: 50%; 
 padding: 10px;    
-height: 35rem;
+height: 38rem;
 }
         @include breakpoint($desk_normal){
 width: 33%;
 padding: 10px;
-height: 35rem;       
+height: 38rem;       
 }
 
         @include breakpoint($desk_normal_mid){
 width: 33%;
 padding: 10px;
-height: 32rem;       
+height: 34rem;       
 }
         @include breakpoint($desk_wide){
 width: 33%;
 padding: 10px;      
-height: 34rem;
+height: 36rem;
 }
 .titulo-teaser{
 	text-transform: none;
 	text-align: justify;
     @include breakpoint($celular_small){
          font-size: 1rem;  
-         height: 3rem;        
+         height: 5rem;        
 }
         @include breakpoint($celular){
          font-size: 1.2rem;
-                  height: 3rem;        
+                  height: 5rem;        
 }
         @include breakpoint($tablet){
          font-size: .7rem;        
-         height: 2.5rem;
+         height: 3.5rem;
 }
 
         @include breakpoint($desk_normal){
          font-size: .8rem;
-         height: 3.5rem;        
+         height: 4.5rem;        
 }
         @include breakpoint($desk_wide){
          font-size: 1.2rem;
@@ -440,21 +440,33 @@ height: 34rem;
 	}
 }	
 .grupo-clase-contenido {
-    display: table;
-    font-size: 1rem;
-    height: 4rem;
-    margin-bottom: 0.1rem;
-    margin-top: 0.1rem;
+    display: inline-flex;
+    margin: 0 auto;
     padding: 0.1rem;
+    height: 5rem;
+
+
 .clase-contenido {
     display: table-cell;
-    font-size: 0.8rem;
-    position: relative;
+//
+
+   @include breakpoint($celular_small){
+            font-size: 1.2rem; }
+        @include breakpoint($celular){
+             font-size: 1.4rem;}
+        @include breakpoint($tablet){
+         font-size: 1.6rem;}
+
+        @include breakpoint($desk_normal){
+         font-size: 1.8rem; }
+        @include breakpoint($desk_wide){
+         font-size: 2.0rem;}
+//    position: relative;
     vertical-align: middle;
 }
 .pleca-clase-contenido {
     display: table-cell;
-    font-size: 2.8rem;
+    font-size: 4rem;
     margin: 1%;
     padding: 1%;
     position: relative;
@@ -462,15 +474,25 @@ height: 34rem;
 }
 .tema-contenido {
     display: table-cell;
-    font-size: 1rem;
     vertical-align: middle;
     width: 60%;
     ul li {
-    font-size: 0.6rem;
+   @include breakpoint($celular_small){
+            font-size: 0.8rem; }
+        @include breakpoint($celular){
+             font-size: 1rem;}
+        @include breakpoint($tablet){
+         font-size: 1.2rem;}
+
+        @include breakpoint($desk_normal){
+         font-size: 1.4rem; }
+        @include breakpoint($desk_wide){
+         font-size: 1.6rem;}
     list-style: none outside none;
     position: relative;
     width: 100%;
     padding:.1rem;
+    left: -2rem;
 }
 .shs-hierarchy {
 position: relative;
@@ -482,6 +504,7 @@ left: -35Px;
     text-align: center;
     img{
         height: auto;
+        width: 100%
     }
 }
 .summary-teaser {
