@@ -376,30 +376,33 @@ padding: 2px;
 }
 
 .teaser-cl{
-height: 38rem;
 float: left;
-height: 520px;
 margin-top: 15px;
 margin-bottom: 15px;
     @include breakpoint($celular_small){
 width: 100%;   
-padding: 0;   
+padding: 0;  
+height: 28rem; 
 }
         @include breakpoint($celular){
 width: 100%; 
-padding: 5px;      
+padding: 5px;   
+height: 30rem;   
 }
         @include breakpoint($tablet){
 width: 50%; 
 padding: 10px;    
+height: 34rem;
 }
         @include breakpoint($desk_normal){
 width: 33%;
-padding: 10px;       
+padding: 10px;
+height: 36rem;       
 }
         @include breakpoint($desk_wide){
 width: 33%;
 padding: 10px;      
+height: 38rem;
 }
 .titulo-teaser{
 	text-transform: none;
