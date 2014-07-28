@@ -428,11 +428,11 @@ height: 36rem;
 
         @include breakpoint($desk_normal){
          font-size: .8rem;
-         height: 4.5rem;        
+         height: 5.5rem;        
 }
         @include breakpoint($desk_wide){
          font-size: 1.2rem;
-        height: 8rem;        
+        height: 6rem;        
 }
     font-family: ubuntu;
 	a{
