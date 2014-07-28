@@ -231,33 +231,37 @@ a:active,  a:hover{
 }  
 .slider-titulo{
     bottom: 0rem;
-    height: 4rem;
     margin: 0;
     width: 100%;
     word-wrap: normal;
 
         @include breakpoint($celular_small){
+    height: 3rem;
         font-size: 0.8rem;        
         position: relative;
     background: none repeat scroll 0 0 rgba(1, 1, 1, 1);
 }
         @include breakpoint($celular){
+    height: 3rem;
          font-size: 1.0rem;
              position: absolute;        
     background: none repeat scroll 0 0 rgba(1, 1, 1, 0.6);
 }
         @include breakpoint($tablet){
+         height: 4rem;       
          font-size: 1.2rem;     
              position: absolute;   
                  background: none repeat scroll 0 0 rgba(1, 1, 1, 0.6);
 }
         @include breakpoint($desk_normal){
+                height: 4rem;
          font-size: 1.5rem;     
              position: absolute;   
     background: none repeat scroll 0 0 rgba(1, 1, 1, 0.6);
 }
 
         @include breakpoint($desk_wide){
+                height: 4rem;
          font-size: 1.5rem;     
              position: absolute; 
                  background: none repeat scroll 0 0 rgba(1, 1, 1, 0.6);  
