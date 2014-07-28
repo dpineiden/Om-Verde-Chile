@@ -1,30 +1,10 @@
 //footer
 
 .l-om--region-footer{
-margin: 0 auto;
-width: 95%;
-position: relative;
 @include grid-span(12,1);
 }
 .l-om-region-prefooter{
-    position: relative;
-     @include breakpoint($celular_small){
-        top: 3rem;
-}
-        @include breakpoint($celular){
-    top: 3rem;
-}
-        @include breakpoint($tablet){
-          top: 2.5rem;
-}
-        @include breakpoint($desk_normal){
-          top: 3.5rem; 
 
-}
-        @include breakpoint($desk_wide){
-top:6rem;
-} 
-    width: 95%;	
  @include grid-span(12,1);
 }
 .l-om-prefooter1{
@@ -40,22 +20,4 @@ top:6rem;
 }
 
 .l-om-footer{ @include grid-span(12,1); 
-    position: relative;
-     width: 95%;
-     @include breakpoint($celular_small){
-        top: 3rem;
-}
-        @include breakpoint($celular){
-    top: 3rem;
-}
-        @include breakpoint($tablet){
-          top: 2.5rem;
-}
-        @include breakpoint($desk_normal){
-          top: 3.5rem; 
-
-}
-        @include breakpoint($desk_wide){
-top:6rem;
-} 
 }  

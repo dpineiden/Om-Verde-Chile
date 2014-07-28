@@ -488,3 +488,26 @@ left: -35Px;
 text-align: justify;
 }
 }//cierre teaser
+//Detalles layout
+
+.l-om--region-footer{
+margin: 0 auto;
+width: 95%;
+position: relative;
+     @include breakpoint($celular_small){
+        top: 3rem;
+}
+        @include breakpoint($celular){
+    top: 3rem;
+}
+        @include breakpoint($tablet){
+          top: 2.5rem;
+}
+        @include breakpoint($desk_normal){
+          top: 3.5rem; 
+
+}
+        @include breakpoint($desk_wide){
+top:6rem;
+} 
+}
