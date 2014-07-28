@@ -41,6 +41,7 @@ top:6rem;
 
 .l-om-footer{ @include grid-span(12,1); 
     position: relative;
+     width: 95%;
      @include breakpoint($celular_small){
         top: 3rem;
 }
@@ -57,4 +58,4 @@ top:6rem;
         @include breakpoint($desk_wide){
 top:6rem;
 } 
-    width: 95%;}  
+}  
