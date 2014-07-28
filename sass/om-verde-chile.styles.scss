@@ -387,17 +387,17 @@ height: 30rem;
         @include breakpoint($celular){
 width: 100%; 
 padding: 5px;   
-height: 30rem;   
+height: 35rem;   
 }
         @include breakpoint($tablet){
 width: 50%; 
 padding: 10px;    
-height: 38rem;
+height: 33rem;
 }
         @include breakpoint($desk_normal){
 width: 33%;
 padding: 10px;
-height: 38rem;       
+height: 36rem;       
 }
 
         @include breakpoint($desk_normal_mid){
@@ -432,7 +432,7 @@ height: 36rem;
 }
         @include breakpoint($desk_wide){
          font-size: 1.2rem;
-        height: 6rem;        
+        height: 8rem;        
 }
     font-family: ubuntu;
 	a{

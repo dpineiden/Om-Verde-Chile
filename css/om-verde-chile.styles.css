@@ -3386,19 +3386,19 @@ html {
     .teaser-cl {
       width: 100%;
       padding: 5px;
-      height: 30rem; } }
+      height: 35rem; } }
   @media (min-width: 600px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/default\/themes\/om_verde_chile\/sass\/om-verde-chile\.styles\.scss}line{font-family:\00003378}}
     .teaser-cl {
       width: 50%;
       padding: 10px;
-      height: 38rem; } }
+      height: 33rem; } }
   @media (min-width: 900px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/default\/themes\/om_verde_chile\/sass\/om-verde-chile\.styles\.scss}line{font-family:\00003378}}
     .teaser-cl {
       width: 33%;
       padding: 10px;
-      height: 38rem; } }
+      height: 36rem; } }
   @media (min-width: 1100px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/default\/themes\/om_verde_chile\/sass\/om-verde-chile\.styles\.scss}line{font-family:\00003378}}
     .teaser-cl {
