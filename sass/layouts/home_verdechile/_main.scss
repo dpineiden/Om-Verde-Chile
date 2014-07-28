@@ -19,7 +19,24 @@
 //   @include grid-span(12,1);  
 //}
 .l-om--region-content{
-     @include grid-span(12,1); 
+     @include grid-span(12,1);
+     //cambia la distancia entre slider y main
+     @include breakpoint($celular_small){
+        top: 3rem;
+}
+        @include breakpoint($celular){
+    top: 3rem;
+}
+        @include breakpoint($tablet){
+          top: 2.5rem;
+}
+        @include breakpoint($desk_normal){
+          top: 3.5rem; 
+
+}
+        @include breakpoint($desk_wide){
+top:6rem;
+} 
 }
 .l-om-content{
 	//@include grid-span(8,1); 
@@ -42,7 +59,7 @@
 //barra lateral
 .l-om--region-sidebar{
  // @include grid-span(4,9); 
-      @include breakpoint($celular_small){
+@include breakpoint($celular_small){
     @include grid-span(12,1);
 }
         @include breakpoint($celular){
