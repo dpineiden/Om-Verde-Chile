@@ -3380,19 +3380,19 @@ html {
     .teaser-cl {
       width: 100%;
       padding: 0;
-      height: 32rem; } }
+      height: 28rem; } }
   @media (min-width: 440px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/default\/themes\/om_verde_chile\/sass\/om-verde-chile\.styles\.scss}line{font-family:\00003378}}
     .teaser-cl {
       width: 100%;
       padding: 5px;
-      height: 32rem; } }
+      height: 30rem; } }
   @media (min-width: 600px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/default\/themes\/om_verde_chile\/sass\/om-verde-chile\.styles\.scss}line{font-family:\00003378}}
     .teaser-cl {
       width: 50%;
       padding: 10px;
-      height: 30rem; } }
+      height: 28rem; } }
   @media (min-width: 900px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/default\/themes\/om_verde_chile\/sass\/om-verde-chile\.styles\.scss}line{font-family:\00003378}}
     .teaser-cl {
@@ -3556,20 +3556,20 @@ html {
   @media (min-width: 212px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/default\/themes\/om_verde_chile\/sass\/om-verde-chile\.styles\.scss}line{font-family:\00003527}}
     .l-om--region-footer {
-      top: 3rem; } }
+      top: 2rem; } }
   @media (min-width: 440px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/default\/themes\/om_verde_chile\/sass\/om-verde-chile\.styles\.scss}line{font-family:\00003527}}
     .l-om--region-footer {
-      top: 3rem; } }
+      top: 2rem; } }
   @media (min-width: 600px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/default\/themes\/om_verde_chile\/sass\/om-verde-chile\.styles\.scss}line{font-family:\00003527}}
     .l-om--region-footer {
-      top: 2.5rem; } }
+      top: 2rem; } }
   @media (min-width: 900px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/default\/themes\/om_verde_chile\/sass\/om-verde-chile\.styles\.scss}line{font-family:\00003527}}
     .l-om--region-footer {
-      top: 3.5rem; } }
+      top: 2rem; } }
   @media (min-width: 1300px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/default\/themes\/om_verde_chile\/sass\/om-verde-chile\.styles\.scss}line{font-family:\00003527}}
     .l-om--region-footer {
-      top: 6rem; } }
+      top: 2rem; } }
