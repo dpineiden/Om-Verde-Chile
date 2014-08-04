@@ -382,33 +382,33 @@ margin-bottom: 15px;
     @include breakpoint($celular_small){
 width: 100%;   
 padding: 0;  
-height: 34rem; 
+height: 32rem; 
 }
         @include breakpoint($celular){
 width: 100%; 
 padding: 5px;   
-height: 35rem;   
+height: 32rem;   
 }
         @include breakpoint($tablet){
 width: 50%; 
 padding: 10px;    
-height: 33rem;
+height: 30rem;
 }
         @include breakpoint($desk_normal){
 width: 33%;
 padding: 10px;
-height: 36rem;       
+height: 30rem;       
 }
 
         @include breakpoint($desk_normal_mid){
 width: 33%;
 padding: 10px;
-height: 34rem;       
+height: 28rem;       
 }
         @include breakpoint($desk_wide){
 width: 33%;
 padding: 10px;      
-height: 36rem;
+height: 30rem;
 }
 .titulo-teaser{
 	text-transform: none;
@@ -518,6 +518,7 @@ position: relative;
     }
 }
 .summary-teaser {
+font-size: 0.8rem;	
 text-align: justify;
 }
 }//cierre teaser
