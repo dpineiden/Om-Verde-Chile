@@ -532,19 +532,19 @@ margin: 0 auto;
 width: 95%;
 position: relative;
      @include breakpoint($celular_small){
-        top: 0rem;
+        top: 4rem;
 }
         @include breakpoint($celular){
-    top: 0rem;
+    top: 4rem;
 }
         @include breakpoint($tablet){
-          top: 0rem;
+          top: 4rem;
 }
         @include breakpoint($desk_normal){
-          top: 0rem; 
+          top: 4rem; 
 
 }
         @include breakpoint($desk_wide){
-top:0rem;
+top:4rem;
 } 
 }
