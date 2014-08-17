@@ -208,25 +208,6 @@ a:active,  a:hover{
 }}
 //menus sobre tood
 .l-om-slider{
-        @include breakpoint($celular_small){
-    height: 6rem;
-}
-        @include breakpoint($celular){
-    height: 8rem;
-}
-        @include breakpoint($tablet){
-   height: 8rem;
-}
-        @include breakpoint($desk_normal){
-    height: 8rem;
-}
-        @include breakpoint($desk_normal_mid){
-    height: 10rem;
-}
-        @include breakpoint($desk_wide){
-    height: 18rem; 
-}
-   
 
 .slider-contenedor{
 .imagen-slider {
@@ -533,20 +514,4 @@ text-align: justify;
 margin: 0 auto;
 width: 95%;
 position: relative;
-     @include breakpoint($celular_small){
-        top: 4rem;
-}
-        @include breakpoint($celular){
-    top: 4rem;
-}
-        @include breakpoint($tablet){
-          top: 4rem;
-}
-        @include breakpoint($desk_normal){
-          top: 4rem; 
-
-}
-        @include breakpoint($desk_wide){
-top:4rem;
-} 
 }
