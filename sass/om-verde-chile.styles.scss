@@ -208,20 +208,26 @@ a:active,  a:hover{
 }}
 //menus sobre tood
 .l-om-slider{
-.flexslider{
+#flexslider-home{
 	height: 16rem;	
 
 
 .slider-contenedor{
+height: 400px;	
 .imagen-slider {
 }  
 .slider-titulo{
 display: none;
 }
 }
-}
-.flexslider:hover .slider-titulo{
+.slider-contenedor:hover .slider-titulo{
 	display:block;	
+	background-color: black;
+	color:white;
+	bottom: 0;
+	vertical-align: baseline;
+}
+
 }
 }
 
