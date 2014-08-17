@@ -212,42 +212,40 @@ a:active,  a:hover{
 .slider-contenedor{
 .imagen-slider {
     z-index: -1;
+    position: relative;
 }  
 .slider-titulo{
     bottom: 0rem;
     margin: 0;
     width: 100%;
     word-wrap: normal;
-
+    position: relative;
         @include breakpoint($celular_small){
     height: 3rem;
         font-size: 0.8rem;        
-        position: relative;
     background: none repeat scroll 0 0 rgba(1, 1, 1, 1);
 }
         @include breakpoint($celular){
     height: 3rem;
          font-size: 1.0rem;
-             position: absolute;        
+    
     background: none repeat scroll 0 0 rgba(1, 1, 1, 0.6);
 }
         @include breakpoint($tablet){
          height: 4rem;       
          font-size: 1.2rem;     
-             position: absolute;   
+
                  background: none repeat scroll 0 0 rgba(1, 1, 1, 0.6);
 }
         @include breakpoint($desk_normal){
                 height: 4rem;
          font-size: 1.5rem;     
-             position: absolute;   
     background: none repeat scroll 0 0 rgba(1, 1, 1, 0.6);
 }
 
         @include breakpoint($desk_wide){
                 height: 4rem;
          font-size: 1.5rem;     
-             position: absolute; 
                  background: none repeat scroll 0 0 rgba(1, 1, 1, 0.6);  
 }
 
@@ -354,7 +352,6 @@ a:active,  a:hover{
 clear: none;
 padding: 2px;
 position: relative;
-top:2rem;
 }
 
 #bienvenido{
