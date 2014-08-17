@@ -216,16 +216,13 @@ a:active,  a:hover{
 .imagen-slider {
 }  
 .slider-titulo{
-position: absolute;
 display: none;
-bottom:0;
-z-index: 1;}
+}
+}
 &:hover .slider-titulo{
 	display:block;	
 }
-
-
-}}}
+}}
 
 
 //contenido
