@@ -18,6 +18,10 @@
 //.l-om--region-central{
 //   @include grid-span(12,1);  
 //}
+.l-om--region-content{
+     @include grid-span(12,1);
+     //cambia la distancia entre slider y main
+}
 .l-om-content{
 	//@include grid-span(8,1); 
      @include breakpoint($celular_small){
