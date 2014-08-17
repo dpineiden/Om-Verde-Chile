@@ -219,11 +219,11 @@ a:active,  a:hover{
 position: absolute;
 display: none;
 bottom:0;
-z-index: 1;
-&:hover{
+z-index: 1;}
+.slider-titulo:hover{
 	display:block;	
 }
-}
+
 
 }}}
 
