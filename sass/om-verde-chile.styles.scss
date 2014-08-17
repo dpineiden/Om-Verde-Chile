@@ -209,12 +209,11 @@ a:active,  a:hover{
 //menus sobre tood
 .l-om-slider{
 #flexslider-home{
-	height: 16rem;	
-
-
 .slider-contenedor{
-height: 400px;	
 .imagen-slider {
+	.field-slideshow {
+margin: 0 auto;
+}
 }  
 .slider-titulo{
 display: none;
@@ -224,8 +223,10 @@ display: none;
 	display:block;	
 	background-color: black;
 	color:white;
+	font-size: 20px;
 	bottom: 0;
 	vertical-align: baseline;
+	a{color:white;}
 }
 
 }
