@@ -219,10 +219,11 @@ a:active,  a:hover{
 display: none;
 }
 }
-&:hover .slider-titulo{
+}
+.flexslider:hover .slider-titulo{
 	display:block;	
 }
-}}
+}
 
 
 //contenido
