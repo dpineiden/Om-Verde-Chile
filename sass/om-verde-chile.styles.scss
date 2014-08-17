@@ -220,7 +220,7 @@ position: absolute;
 display: none;
 bottom:0;
 z-index: 1;}
-.slider-titulo:hover{
+&:hover .slider-titulo{
 	display:block;	
 }
 

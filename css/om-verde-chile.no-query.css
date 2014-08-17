@@ -2993,7 +2993,7 @@ html {
     bottom: 0;
     z-index: 1; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/default\/themes\/om_verde_chile\/sass\/om-verde-chile\.styles\.scss}line{font-family:\00003223}}
-  .l-om-slider .flexslider .slider-contenedor .slider-titulo:hover {
+  .l-om-slider .flexslider .slider-contenedor:hover .slider-titulo {
     display: block; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/david\/public_html\/sites\/default\/themes\/om_verde_chile\/sass\/om-verde-chile\.styles\.scss}line{font-family:\00003232}}
