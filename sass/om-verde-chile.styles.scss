@@ -211,12 +211,14 @@ a:active,  a:hover{
 #flexslider-home{
 .slider-contenedor{
 .imagen-slider {
-	.field-slideshow {
+z-index: 0;
+.field-slideshow {
 margin: 0 auto;
 }
 }  
 .slider-titulo{
 display: none;
+z-index: 1;
 }
 }
 .slider-contenedor:hover .slider-titulo{
@@ -341,11 +343,13 @@ height: 30rem;
     display: inline-flex;
     margin: 0 auto;
     padding: 0.1rem;
-    height: 5rem;
-
-
+    width: 100%;
+    background: none repeat scroll 0 0 rgba(146, 255, 217, 0.35);
+    border-bottom: 2px solid rgba(142, 159, 160, 0.41);
+    border-right: 2px solid rgba(142, 159, 160, 0.41);
 .clase-contenido {
     display: table-cell;
+    width: 45%;
 //
 
    @include breakpoint($celular_small){
@@ -362,29 +366,10 @@ height: 30rem;
 //    position: relative;
     vertical-align: middle;
 }
-.pleca-clase-contenido {
-    display: table-cell;
-    margin: 1%;
-    padding: 1%;
-    position: relative;
-    vertical-align: middle;
-
-       @include breakpoint($celular_small){
-            font-size: 1.2rem; }
-        @include breakpoint($celular){
-             font-size: 4rem;}
-        @include breakpoint($tablet){
-         font-size: 3rem;}
-
-        @include breakpoint($desk_normal){
-         font-size: 3rem; }
-        @include breakpoint($desk_wide){
-         font-size: 3rem;}
-}
 .tema-contenido {
     display: table-cell;
     vertical-align: middle;
-    width: 60%;
+    border-left: 5px solid #6A5ACD;
     ul li {
    @include breakpoint($celular_small){
             font-size: 0.8rem; }
@@ -426,4 +411,29 @@ text-align: justify;
 margin: 0 auto;
 width: 95%;
 position: relative;
+}
+//footer
+.im-footer {
+    float: left;
+       @include breakpoint($celular_small){
+                margin: 5%; }
+        @include breakpoint($celular){
+                 margin: 5%;}
+        @include breakpoint($tablet){
+             margin: 5%;}
+
+        @include breakpoint($desk_normal){
+             margin: 10%; }
+        @include breakpoint($desk_wide){
+             margin: 10%;}
+
+
+}
+//pager
+.pager {
+    border: 1px none;
+    clear: both;
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
 }
